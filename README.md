@@ -45,7 +45,7 @@ The contractor signs a document that references both:
 
 ---
 
-## Workflow for Onboarding a New Contractor
+## Workflow for Signing a Contractor Agreement
 
 ### 1. Prepare the Special Terms
 

@@ -113,6 +113,16 @@ and appended below or in a separate Milestone Schedule signed by both Parties.
 
 ---
 
+## Supersession
+
+This Agreement supersedes and replaces all prior agreements, understandings,
+and arrangements between the Parties relating to the subject matter herein,
+whether written or oral, with immediate effect from the date of signing.
+Any accrued rights or obligations under a prior agreement — including approved
+but unpaid amounts — remain valid and are not affected by this supersession.
+
+---
+
 ## Signatures
 
 By signing below, both Parties confirm they have read, understood, and agreed to
