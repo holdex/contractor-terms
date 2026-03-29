@@ -71,7 +71,7 @@
    representatives, or any third parties only through channels approved in writing
    by Holdex.
 2. **Default Channel.** The default approved communication channel is Holdex's
-   GitHub organization (https://github.com/holdex).
+   GitHub organization (<https://github.com/holdex>).
 3. **Logging Outside Default Channel.** If communication occurs outside the Default
    Channel, the Contractor must log a transcript or detailed summary in the Default
    Channel on the same day the communication happened. Alternatively, such
