@@ -80,6 +80,7 @@
    and third-party secrets.
 3. **Permitted Use.** Only for Company work; no disclosure except to authorized
    Company personnel.
+4. **Return and Deletion.** On termination or expiration of this Agreement, or at the Company's request, the Contractor must promptly return or securely destroy all Confidential Information and its copies, including any Work Product or materials derived from it. The Contractor must then certify this completion in writing to the Company.
 
 ---
 
@@ -102,6 +103,18 @@
    shall solicit or hire the other's employees without prior written consent.
 2. **Clients.** During the term and for 3 years after termination, the Contractor
    shall not solicit the Company's clients with whom it worked under this Agreement.
+
+---
+
+## Non-Compete
+
+1. **Prohibited Activities.** During the term of this Agreement and for a period of 1 year following its termination,
+   the Contractor shall not, directly or indirectly, engage in any business, project, or venture that is directly
+   competitive with the business activities of Holdex Limited or any projects that Holdex Limited develops in
+   collaboration with its clients, within any geographical area where Holdex Limited operates. This includes, but is not
+   limited to, working for, advising, investing in, or providing services to any competing entity.
+2. **Notification.** The Contractor agrees to notify Holdex Limited of any potential conflict of interest arising from
+   new engagements or business activities during the non-compete period.
 
 ---
 
