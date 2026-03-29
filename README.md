@@ -1,4 +1,4 @@
-# contractor-terms
+# Contractor-terms
 
 This repository contains the Standard Terms and Special Terms template for
 independent contractors working with Holdex Limited. It is published publicly
