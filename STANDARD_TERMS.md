@@ -66,18 +66,20 @@
 
 ## Communication Channels
 
-1. **Approved Channels.** The Contractor must conduct all communications and activities on behalf of Holdex with other
-   contractors, Holdex employees, client representatives, or any third parties only through channels approved in writing
+1. **Approved Channels.** The Contractor must conduct all communications and
+   activities on behalf of Holdex with other contractors, Holdex employees, client
+   representatives, or any third parties only through channels approved in writing
    by Holdex.
-2. **Default Channel.** The default approved communication channel is Holdex's GitHub organization
-   (https://holdex.io/holdex).
-3. **Logging Outside Default Channel.** If communication occurs outside the Default Channel, the Contractor must log a
-   transcript or detailed summary in the Default Channel on the same day the communication happened. Alternatively, such
-   communication should be handled directly within the Default Channel. Unlogged communication will be considered
-   unofficial by Holdex.
-4. **Manager Notification.** If the Contractor is authorized to communicate outside the Default Channel, the Contractor
-   must keep their designated managers (as specified in the Special Terms) informed by including them in such
-   communications.
+2. **Default Channel.** The default approved communication channel is Holdex's
+   GitHub organization (https://github.com/holdex).
+3. **Logging Outside Default Channel.** If communication occurs outside the Default
+   Channel, the Contractor must log a transcript or detailed summary in the Default
+   Channel on the same day the communication happened. Alternatively, such
+   communication should be handled directly within the Default Channel. Unlogged
+   communication will be considered unofficial by Holdex.
+4. **Manager Notification.** If the Contractor is authorized to communicate outside
+   the Default Channel, the Contractor must keep their designated managers (as
+   specified in the Special Terms) informed by including them in such communications.
 
 ---
 
@@ -97,9 +99,11 @@
    and third-party secrets.
 3. **Permitted Use.** Only for Company work; no disclosure except to authorized
    Company personnel.
-4. **Return and Deletion.** On termination or expiration of this Agreement, or at the Company's request, the Contractor
-   must promptly return or securely destroy all Confidential Information and its copies, including any Work Product or
-   materials derived from it. The Contractor must then certify this completion in writing to the Company.
+4. **Return and Deletion.** On termination or expiration of this Agreement, or at
+   the Company's request, the Contractor must promptly return or securely destroy
+   all Confidential Information and its copies, including any Work Product or
+   materials derived from it. The Contractor must then certify this completion
+   in writing to the Company.
 
 ---
 
@@ -112,7 +116,6 @@
 3. **Moral Rights.** The Contractor waives all moral rights (e.g., authorship claims).
 4. **Assistance.** The Contractor will sign documents or assist the Company to
    protect its IP during and after the term.
-5. **Return.** On termination, return or delete all Company materials immediately.
 
 ---
 
@@ -127,13 +130,15 @@
 
 ## Non-Compete
 
-1. **Prohibited Activities.** During the term of this Agreement and for a period of 1 year following its termination,
-   the Contractor shall not, directly or indirectly, engage in any business, project, or venture that is directly
-   competitive with the business activities of Holdex Limited or any projects that Holdex Limited develops in
-   collaboration with its clients, within any geographical area where Holdex Limited operates. This includes, but is not
-   limited to, working for, advising, investing in, or providing services to any competing entity.
-2. **Notification.** The Contractor agrees to notify Holdex Limited of any potential conflict of interest arising from
-   new engagements or business activities during the non-compete period.
+1. **Prohibited Activities.** During the term of this Agreement and for 6 months
+   following its termination, the Contractor shall not directly provide services
+   to any client they worked with under this Agreement in a capacity that competes
+   with the Services delivered for that client through Holdex. This restriction
+   applies only to those specific clients and does not prevent the Contractor from
+   working in their field generally.
+2. **Notification.** The Contractor agrees to notify Holdex Limited of any potential
+   conflict of interest arising from new engagements or business activities that may
+   fall within this restriction.
 
 ---
 
@@ -168,9 +173,11 @@
    supersedes all prior negotiations.
 2. **Counterparts.** Signed in parts count as one original.
 3. **Amendment.** Changes to the Special Terms only in writing signed by both
-   Parties. Changes to the Standard Terms are governed by the [Updates](#updates-to-these-standard-terms) section.
-4. **Notices.** In English, in writing, delivered by email to the addresses in the Special Terms, or by GitHub release
-   notification as described in the [Updates](#updates-to-these-standard-terms) section.
+   Parties. Changes to the Standard Terms are governed by the
+   [Updates](#updates-to-these-standard-terms) section.
+4. **Notices.** In English, in writing, delivered by email to the addresses in the
+   Special Terms (for contractual notices only), or by GitHub release notification as described in the
+   [Updates](#updates-to-these-standard-terms) section.
 5. **Assignment.** No assignment without the other Party's written consent.
 6. **Governing Law.** Hong Kong law applies (no conflict of law rules).
 7. **No Waiver.** Delaying a right does not waive it.
@@ -193,7 +200,8 @@
 ## Updates to These Standard Terms
 
 1. **Right to Update.** The Company may update these Standard Terms from time
-   to time by publishing a new tagged release to the repository at github.com/holdex/contractor-terms.
+   to time by publishing a new tagged release to the repository at
+   github.com/holdex/contractor-terms.
 2. **Notice of Updates.** The Company will notify the Contractor of any update by:
    (i) tagging a new release in the repository (e.g., v1.1), and (ii) sending an
    email to the Contractor's registered Gmail address at least 14 days before the
@@ -210,4 +218,4 @@
 
 ---
 
-Holdex Limited — github.com/holdex/contractor-terms
+_Holdex Limited — [github.com/holdex/contractor-terms](https://github.com/holdex/contractor-terms)_

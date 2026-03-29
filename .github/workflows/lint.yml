@@ -1,0 +1,36 @@
+name: Validate Markdown
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**.md"
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+jobs:
+  lint:
+    if: github.event.pull_request.draft == false
+    uses: holdex/github-actions/.github/workflows/markdown-check.yml@main
+
+  check-links:
+    if: github.event.pull_request.draft == false
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --exclude-mail
+            '**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
