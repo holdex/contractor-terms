@@ -5,7 +5,7 @@
 > the Standard Terms published at:  
 > [github.com/holdex/contractor-terms](https://github.com/holdex/contractor-terms)
 >
-> **Standard Terms version applicable to this Agreement:** <!-- STANDARD_TERMS_VERSION -->
+> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0 -->
 
 ---
 
@@ -52,7 +52,7 @@
 1. Contribute to Holdex projects in the Contractor’s area of expertise (software development, design, marketing, sales,
    or other agreed functions) while fully respecting Holdex’s developer-first culture.
 2. Adhere at all times to Holdex’s development principles and guidelines published at
-   <https://github.com/holdex/developers>. The Contractor must maintain high standards of
+   [github.com/holdex/developers](https://github.com/holdex/developers). All contractors must maintain high standards of
    clarity, traceability, and professionalism when working in GitHub.
 3. Deliver work professionally, on schedule, and with a focus on high customer and client satisfaction.
 4. Support the promotion of the Holdex brand across agreed channels (website, X, LinkedIn, etc.).
@@ -81,19 +81,12 @@
 > Applies only if Engagement Mode is Project/Milestone.  
 > All fees and schedules are defined per Work Order before work begins.
 
-### Commission Structure
+### Commission
 
-> Applies only when commission is part of the compensation. Leave blank or mark as "Not Applicable" otherwise.
+> Applies only when commission is offered. Otherwise mark as Not Applicable.
 
-| Field                    | Value                                                            |
-| ------------------------ | ---------------------------------------------------------------- |
-| Commission Eligible      | <!-- Yes / No -->                                                |
-| Commission Rate          | <!-- e.g. 10% of net revenue, 5% of deal value, etc. -->         |
-| Commission Basis         | <!-- Net revenue / Gross revenue / Deal value / Other -->        |
-| Payment Trigger          | <!-- Upon client payment / Upon project completion / Monthly --> |
-| Cap / Threshold (if any) | <!-- e.g. First $50,000 excluded, maximum $X per month -->       |
-
-> Any commission payable will be calculated and paid only on revenue or deals directly generated and closed by the Contractor, as approved by an Authorised Issuer. Detailed commission calculations will be documented per Work Order or monthly report.
+Commission, if any, will be defined per Work Order. The Contractor shall only be entitled to commission on revenue or
+deals that are directly attributable to their efforts and explicitly approved in writing by an Authorised Issuer.
 
 ---
 
@@ -108,13 +101,20 @@ the issue must follow this structure:
 ```text
 **Work Order — [Brief Title]**
 Agreement: [Contractor Full Name] — Special Terms v[X] / Standard Terms v[X]
-Payment Type: [Per-Project / Milestone-Based]
+Payment Type: [Per-Project / Milestone-Based / Retainer + Commission]
+
 **Scope:**
 [Description of work to be delivered]
+
 **Fee:**
-[Fixed fee USD / Milestone schedule with amounts and due dates]
+[Fixed fee USD or hourly rate]
+
+**Commission (if applicable):**
+[Specific commission terms for this engagement, e.g. "10% of net revenue from closed deals" or "Not applicable"]
+
 **Deadline:**
 [Date or milestone due dates]
+
 **Acceptance Criteria:**
 [How completion will be assessed and by whom]
 ```
@@ -156,16 +156,8 @@ these Special Terms and the Standard Terms at the version referenced above.
 
 **Attach a copy of government-issued ID below this line.**
 
-<!-- Government ID picture -->
+<!-- GOVERNMENT_ID_IMAGE -->
 
 ---
 
 _Holdex Limited — [holdex.io](https://holdex.io)_
-
-```text
-
-This version uses proper Markdown table syntax and consistent line breaks so it renders correctly on GitHub, Notion,
-Obsidian, or any Markdown viewer. You can copy it directly.
-
-Let me know if you need the Standard Terms refreshed in the same style too!
-```
