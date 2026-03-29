@@ -22,7 +22,9 @@ Initial release of the Standard Terms and Special Terms template.
 - Intellectual property ownership and assignment
 - Non-solicitation of employees and clients
 - Non-compete restricted to specific clients worked with under this Agreement
-- Termination with 7 days notice
+- Termination with 7 days notice, with payment terms covering all three
+  payment types — including good faith negotiation for partially completed
+  milestones within 14 days, falling back to arbitration if unresolved
 - Indemnification and liability cap
 - General provisions
 - Dispute resolution and arbitration in Hong Kong under HKIAC rules

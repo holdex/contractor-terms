@@ -16,39 +16,76 @@
 
 ## Services
 
-1. **Performance.** The Contractor will perform the Services listed in
-   the Special Terms professionally and deliver on time.
-2. **Changes.** The Company can request changes to the Services if they stay
-   within the original scope. If a change increases costs or time for the Contractor,
-   both parties will agree in writing on fair adjustments to fees or deadlines.
+1. **Performance.** The Contractor will perform Services under the Engagement
+   Mode specified in the Special Terms, professionally and on time.
+2. **Changes.** For Project and Milestone engagements, the Company can request
+   changes to a Work Order's scope if they stay within the original scope. If a
+   change increases costs or time, both parties will agree in writing on fair
+   adjustments to fees or deadlines before work continues. For Retainer
+   engagements, task changes are managed through the default GitHub channel.
 3. **Record-Keeping.** The Contractor is responsible for maintaining their own
    copy of a trace log of all Services provided, including dates, work completed,
-   hours worked (if hourly), milestones or project deliverables completed, and
-   any relevant project references. This log must be retained for the duration
-   of the Agreement and for 1 year following its termination.
+   hours worked (if Retainer), milestones or project deliverables completed, and
+   any relevant Work Order or task references. This log must be retained for the
+   duration of the Agreement and for 1 year following its termination.
+
+---
+
+## Engagement Modes
+
+1. **Retainer.** Where the Engagement Mode in the Special Terms is Retainer,
+   the framework Agreement itself activates the engagement. No Work Order is
+   required per task. The Contractor is available on an ongoing basis, picks up
+   tasks assigned through the default GitHub channel, logs hours via PRs, and
+   is paid monthly at the hourly rate in the Special Terms. Research and learning
+   time is not paid unless pre-agreed in writing as part of task scoping.
+2. **Project and Milestone.** Where the Engagement Mode in the Special Terms is
+   Project/Milestone, each discrete engagement requires a formal Work Order
+   before work begins, as defined in the Work Orders section. Payment terms are
+   defined per Work Order.
+
+---
+
+## Work Orders
+
+1. **Applicability.** Work Orders apply only to Project/Milestone engagements.
+   Retainer contractors do not require Work Orders for individual tasks.
+2. **Definition.** A Work Order is a written instruction issued by an Authorised
+   Issuer that activates a specific Project or Milestone engagement under this
+   framework Agreement. Each Work Order must specify: scope of work, payment
+   type, applicable fee, deadline or milestone schedule, and acceptance criteria.
+3. **Authorised Issuers.** Work Orders may only be issued on behalf of the Company
+   by the individuals listed as Authorised Issuers in the Special Terms.
+   Instructions from any other person do not constitute a valid Work Order and
+   do not obligate the Company to pay.
+4. **Execution.** Work Orders are issued as GitHub issues in the Holdex GitHub
+   organization. A Work Order is considered accepted and binding once the Contractor
+   posts a written acknowledgement comment on the relevant GitHub issue. No
+   signature is required.
+5. **Precedence.** In the event of conflict between a Work Order and these Standard
+   Terms, the Standard Terms prevail unless the Work Order explicitly states
+   otherwise and is countersigned by both Parties.
+6. **No Guarantee of Work.** This Agreement does not guarantee the Company will
+   issue any minimum number of Work Orders or volume of work to the Contractor.
 
 ---
 
 ## Compensation
 
-1. **Payment Type.** The payment structure applicable to this Agreement is set in
-   the Special Terms and is one of: hourly rate, fixed per-project fee, or
-   milestone-based fee. The terms for each type are set out below.
-2. **Hourly Rate.** Where payment is hourly, the rate and payment cycle are as set
-   in the Special Terms. The Contractor must submit hours billed using PRs.
-   Holdex must approve all hours before payment. Research and learning time is
-   not paid unless pre-agreed in writing as part of scoping. Invoices are
-   submitted at month-end for approved hours only.
-3. **Per-Project Fee.** Where payment is a fixed per-project fee, the fee and
-   payment due date are as set in the Special Terms. Payment is due on completion
-   and written acceptance of the project deliverables by the Company, unless
-   otherwise specified in the Special Terms.
-4. **Milestone-Based Fee.** Where payment is milestone-based, the milestones,
-   associated fees, and due dates are agreed in writing before work begins and
-   recorded in the Special Terms or a signed Milestone Schedule. Each milestone
-   payment is due upon the Company's written acceptance of that milestone's
-   deliverables. Additional milestones may be agreed in writing by both Parties
-   as a signed amendment.
+1. **Payment Type.** Payment is determined by the Engagement Mode in the Special
+   Terms. Retainer engagements are paid at the hourly rate in the Special Terms.
+   Project and Milestone engagements are paid at the fee defined in the relevant
+   Work Order.
+2. **Retainer — Hourly.** The Contractor submits hours billed using PRs. Holdex
+   must approve all hours before payment. Research and learning time is not paid
+   unless pre-agreed in writing as part of task scoping. Invoices are submitted
+   at month-end for approved hours only.
+3. **Per-Project Fee.** Payment is due on completion and written acceptance of
+   the project deliverables by an Authorised Issuer, unless otherwise specified
+   in the Work Order.
+4. **Milestone-Based Fee.** Each milestone payment is due upon written acceptance
+   of that milestone's deliverables by an Authorised Issuer, as defined in the
+   Work Order.
 5. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
 6. **Finality of Payment.** Any payment made by the Company for approved hours,
@@ -123,6 +160,15 @@
 
 ---
 
+## Information Sharing
+
+1. **Multiple Projects.** The Contractor may be assigned to projects for Holdex
+   clients and can work on multiple projects at the same time.
+2. **Client Separation.** The Contractor must keep all client information
+   confidential and not share details of work for one client with another.
+
+---
+
 ## Intellectual Property
 
 1. **Ownership.** All Work Product (code, designs, documentation, etc.)
@@ -161,10 +207,24 @@
 ## Termination
 
 1. **Notice.** Either Party may end this Agreement at any time with 7 calendar
-   days' written notice.
-2. **Payment on Termination.** The Company pays for Services completed up to
-   the end of the notice period. No payment is due for the notice period if no
-   Services are required and both Parties agree in writing.
+   days' written notice. Active Work Orders at the time of notice continue until
+   the end of the notice period unless both Parties agree in writing to end them
+   earlier.
+2. **Payment on Termination — Retainer.** The Company pays for all approved hours
+   completed up to the end of the notice period. No payment is due for the notice
+   period if no Services are required and both Parties agree in writing.
+3. **Payment on Termination — Per Project.** Payment is due only if the project
+   deliverables have been fully completed and accepted by an Authorised Issuer
+   prior to termination. No partial payment is due for incomplete deliverables
+   unless both Parties agree otherwise in writing.
+4. **Payment on Termination — Milestone-Based.** Fully accepted milestones are
+   paid in full. For any milestone partially completed at the date of termination,
+   both Parties will negotiate in good faith within 14 days to agree on a fair
+   value for the work completed, using the Contractor's trace log as the primary
+   evidence base. If the Parties cannot reach agreement within 14 days, the matter
+   will be resolved under the [Dispute Resolution](#dispute-resolution) section.
+   Any IP created as part of a partially completed milestone transfers to the
+   Company regardless of whether payment has been agreed.
 
 ---
 
@@ -229,8 +289,8 @@
    they may terminate this Agreement under the [Termination](#termination) section
    within the 14-day notice period without penalty.
 5. **Version on Record.** The version of the Standard Terms that applies to each
-   signed Agreement is the version tagged at the time of signing, as recorded in
-   the Special Terms. Any updates apply prospectively only.
+   signed Agreement is the version tagged at the time of signing, as recorded in the
+   Special Terms. Any updates apply prospectively only.
 
 ---
 

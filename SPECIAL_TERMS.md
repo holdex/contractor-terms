@@ -1,11 +1,11 @@
 # Holdex Independent Contractor — Special Terms
 
-> This document forms part of the Independent Contractor Agreement between
-> Holdex Limited and the Contractor named below. It must be read together with
-> the Standard Terms published at:
+> This document forms part of the Independent Contractor Agreement between  
+> Holdex Limited and the Contractor named below. It must be read together with  
+> the Standard Terms published at:  
 > [github.com/holdex/contractor-terms](https://github.com/holdex/contractor-terms)
 >
-> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0 -->
+> **Standard Terms version applicable to this Agreement:** <!-- STANDARD_TERMS_VERSION -->
 
 ---
 
@@ -37,73 +37,90 @@
 
 ---
 
-## Role
+## Engagement Details
 
-| Field                 | Value                    |
-| --------------------- | ------------------------ |
-| Role Title            | <!-- ROLE_TITLE -->      |
-| Designated Manager(s) | <!-- MANAGER_NAME(S) --> |
+| Field                 | Value                                               |
+| --------------------- | --------------------------------------------------- |
+| Primary Capacity      | <!-- PRIMARY_CAPACITY -->                           |
+| Designated Manager(s) | <!-- MANAGER_NAME(S) -->                            |
+| Authorised Issuers    | Vadim Zolotokrylin (CEO), Mark Curchin (Co-Founder) |
 
 ---
 
 ## Services
 
-1. Design, develop, and implement software solutions for Holdex, following the
-   development principles at [github.com/holdex/developers](https://github.com/holdex/developers).
-2. Deliver projects on time and maintain high customer satisfaction for Holdex clients.
-3. Promote the Holdex brand on the company website, X (formerly Twitter), LinkedIn,
-   and other agreed marketing channels.
+1. Contribute to Holdex projects in the Contractor’s area of expertise (software development, design, marketing, sales,
+   or other agreed functions) while fully respecting Holdex’s developer-first culture.
+2. Adhere at all times to Holdex’s development principles and guidelines published at
+   <https://github.com/holdex/developers>. The Contractor must maintain high standards of
+   clarity, traceability, and professionalism when working in GitHub.
+3. Deliver work professionally, on schedule, and with a focus on high customer and client satisfaction.
+4. Support the promotion of the Holdex brand across agreed channels (website, X, LinkedIn, etc.).
 
 ---
 
-## Information Sharing
+## Rate Card
 
-1. The Contractor may be assigned to projects for Holdex clients and can work on
-   multiple projects at the same time.
-2. The Contractor must keep all client information confidential and not share details
-   of work for one client with another.
+### Engagement Mode
 
----
+| Field           | Value                                 |
+| --------------- | ------------------------------------- |
+| Engagement Mode | <!-- Retainer / Project/Milestone --> |
 
-## Compensation
+### Retainer — Hourly Rate
 
-| Field        | Value                                     |
-| ------------ | ----------------------------------------- |
-| Payment Type | <!-- HOURLY / PER_PROJECT / MILESTONE --> |
-
-### If Hourly
+> Applies only if Engagement Mode is Retainer. Leave blank otherwise.
 
 | Field           | Value                  |
 | --------------- | ---------------------- |
 | Rate (USD/hour) | <!-- RATE_PER_HOUR --> |
 | Payment Cycle   | Monthly                |
 
-**Submission & Approval:**
+### Project and Milestone Fees
 
-1. The Contractor must submit hours billed using PRs.
-2. Holdex must approve all hours before payment.
+> Applies only if Engagement Mode is Project/Milestone.  
+> All fees and schedules are defined per Work Order before work begins.
 
-### If Per Project
+### Commission Structure
 
-| Field               | Value                                      |
-| ------------------- | ------------------------------------------ |
-| Project Description | <!-- PROJECT_DESCRIPTION -->               |
-| Fixed Fee (USD)     | <!-- PROJECT_FEE -->                       |
-| Payment Due         | <!-- e.g. On completion and acceptance --> |
+> Applies only when commission is part of the compensation. Leave blank or mark as "Not Applicable" otherwise.
 
-### If Milestone-Based
+| Field                    | Value                                                            |
+| ------------------------ | ---------------------------------------------------------------- |
+| Commission Eligible      | <!-- Yes / No -->                                                |
+| Commission Rate          | <!-- e.g. 10% of net revenue, 5% of deal value, etc. -->         |
+| Commission Basis         | <!-- Net revenue / Gross revenue / Deal value / Other -->        |
+| Payment Trigger          | <!-- Upon client payment / Upon project completion / Monthly --> |
+| Cap / Threshold (if any) | <!-- e.g. First $50,000 excluded, maximum $X per month -->       |
 
-Milestones and their associated fees are agreed in writing before work begins
-and appended below or in a separate Milestone Schedule signed by both Parties.
+> Any commission payable will be calculated and paid only on revenue or deals directly generated and closed by the Contractor, as approved by an Authorised Issuer. Detailed commission calculations will be documented per Work Order or monthly report.
 
-| Milestone | Description               | Fee (USD)                | Due Date                  |
-| --------- | ------------------------- | ------------------------ | ------------------------- |
-| 1         | <!-- MILESTONE_1_DESC --> | <!-- MILESTONE_1_FEE --> | <!-- MILESTONE_1_DATE --> |
-| 2         | <!-- MILESTONE_2_DESC --> | <!-- MILESTONE_2_FEE --> | <!-- MILESTONE_2_DATE --> |
-| 3         | <!-- MILESTONE_3_DESC --> | <!-- MILESTONE_3_FEE --> | <!-- MILESTONE_3_DATE --> |
+---
 
-> Add or remove rows as needed. Additional milestones may be agreed in writing
-> and appended as a signed Milestone Schedule amendment.
+## Work Order Template
+
+> Applies only if Engagement Mode is Project/Milestone.  
+> Retainer contractors do not require Work Orders for individual tasks.
+
+When an Authorised Issuer creates a GitHub issue to initiate a new engagement,  
+the issue must follow this structure:
+
+```text
+**Work Order — [Brief Title]**
+Agreement: [Contractor Full Name] — Special Terms v[X] / Standard Terms v[X]
+Payment Type: [Per-Project / Milestone-Based]
+**Scope:**
+[Description of work to be delivered]
+**Fee:**
+[Fixed fee USD / Milestone schedule with amounts and due dates]
+**Deadline:**
+[Date or milestone due dates]
+**Acceptance Criteria:**
+[How completion will be assessed and by whom]
+```
+
+The Contractor must post a comment on the issue to confirm acceptance before  
+work begins. Silence does not constitute acceptance.
 
 ---
 
@@ -115,17 +132,17 @@ and appended below or in a separate Milestone Schedule signed by both Parties.
 
 ## Supersession
 
-This Agreement supersedes and replaces all prior agreements, understandings,
-and arrangements between the Parties relating to the subject matter herein,
-whether written or oral, with immediate effect from the date of signing.
-Any accrued rights or obligations under a prior agreement — including approved
+This Agreement supersedes and replaces all prior agreements, understandings,  
+and arrangements between the Parties relating to the subject matter herein,  
+whether written or oral, with immediate effect from the date of signing.  
+Any accrued rights or obligations under a prior agreement — including approved  
 but unpaid amounts — remain valid and are not affected by this supersession.
 
 ---
 
 ## Signatures
 
-By signing below, both Parties confirm they have read, understood, and agreed to
+By signing below, both Parties confirm they have read, understood, and agreed to  
 these Special Terms and the Standard Terms at the version referenced above.
 
 |               | Holdex Limited     | The Contractor                         |
@@ -139,6 +156,16 @@ these Special Terms and the Standard Terms at the version referenced above.
 
 **Attach a copy of government-issued ID below this line.**
 
+<!-- Government ID picture -->
+
 ---
 
 _Holdex Limited — [holdex.io](https://holdex.io)_
+
+```text
+
+This version uses proper Markdown table syntax and consistent line breaks so it renders correctly on GitHub, Notion,
+Obsidian, or any Markdown viewer. You can copy it directly.
+
+Let me know if you need the Standard Terms refreshed in the same style too!
+```
