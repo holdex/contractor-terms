@@ -18,7 +18,7 @@ contractor-terms/
 ├── .rumdl.toml                 — markdown lint configuration
 ├── README.md                   — this file
 ├── STANDARD_TERMS.md           — the legal document (versioned by git tags)
-├── SPECIAL_TERMS.md            — blank template (filled in per contractor by HR)
+├── SPECIAL_TERMS.md            — blank template (filled in per contractor by HR; keep only the relevant compensation subsection)
 └── CHANGELOG.md                — plain English version history
 ```
 
@@ -50,8 +50,10 @@ The contractor signs a document that references both:
 ### 1. Prepare the Special Terms
 
 Copy `SPECIAL_TERMS.md` to the private HR repository. Fill in all
-`<!-- PLACEHOLDER -->` fields. Record the Standard Terms tag currently
-in effect (e.g. `v1.0`) at the top of the document.
+`<!-- PLACEHOLDER -->` fields. In the Compensation section, keep only
+the subsection that applies to this contractor (Hourly, Per Project, or
+Milestone-Based) and delete the other two. Record the Standard Terms tag
+currently in effect (e.g. `v1.0`) at the top of the document.
 
 ### 2. Send for signing
 

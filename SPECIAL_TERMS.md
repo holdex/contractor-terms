@@ -22,15 +22,18 @@
 
 ## Contractor Details
 
-| Field               | Value                  |
-| ------------------- | ---------------------- |
-| First Name          | <!-- FIRST_NAME -->    |
-| Last Name           | <!-- LAST_NAME -->     |
-| ID Number           | <!-- ID_NUMBER -->     |
-| Date of Birth       | <!-- DATE_OF_BIRTH --> |
-| Residential Address | <!-- REG_ADDRESS -->   |
-| Email (Gmail only)  | <!-- GMAIL_EMAIL -->   |
-| Phone Number        | <!-- PHONE_NUMBER -->  |
+| Field                     | Value                   |
+| ------------------------- | ----------------------- |
+| First Name                | <!-- FIRST_NAME -->     |
+| Last Name                 | <!-- LAST_NAME -->      |
+| ID Number                 | <!-- ID_NUMBER -->      |
+| Date of Birth             | <!-- DATE_OF_BIRTH -->  |
+| Residential Address       | <!-- REG_ADDRESS -->    |
+| Email (Gmail only)        | <!-- GMAIL_EMAIL -->    |
+| Phone Number              | <!-- PHONE_NUMBER -->   |
+| GitHub Handle             | <!-- GITHUB_HANDLE -->  |
+| Telegram Registered Phone | <!-- TELEGRAM_PHONE --> |
+| WhatsApp Registered Phone | <!-- WHATSAPP_PHONE --> |
 
 ---
 
@@ -64,9 +67,14 @@
 
 ## Compensation
 
+| Field        | Value                                     |
+| ------------ | ----------------------------------------- |
+| Payment Type | <!-- HOURLY / PER_PROJECT / MILESTONE --> |
+
+### If Hourly
+
 | Field           | Value                  |
 | --------------- | ---------------------- |
-| Payment Type    | Hourly rate only       |
 | Rate (USD/hour) | <!-- RATE_PER_HOUR --> |
 | Payment Cycle   | Monthly                |
 
@@ -74,6 +82,28 @@
 
 1. The Contractor must submit hours billed using PRs.
 2. Holdex must approve all hours before payment.
+
+### If Per Project
+
+| Field               | Value                                      |
+| ------------------- | ------------------------------------------ |
+| Project Description | <!-- PROJECT_DESCRIPTION -->               |
+| Fixed Fee (USD)     | <!-- PROJECT_FEE -->                       |
+| Payment Due         | <!-- e.g. On completion and acceptance --> |
+
+### If Milestone-Based
+
+Milestones and their associated fees are agreed in writing before work begins
+and appended below or in a separate Milestone Schedule signed by both Parties.
+
+| Milestone | Description               | Fee (USD)                | Due Date                  |
+| --------- | ------------------------- | ------------------------ | ------------------------- |
+| 1         | <!-- MILESTONE_1_DESC --> | <!-- MILESTONE_1_FEE --> | <!-- MILESTONE_1_DATE --> |
+| 2         | <!-- MILESTONE_2_DESC --> | <!-- MILESTONE_2_FEE --> | <!-- MILESTONE_2_DATE --> |
+| 3         | <!-- MILESTONE_3_DESC --> | <!-- MILESTONE_3_FEE --> | <!-- MILESTONE_3_DATE --> |
+
+> Add or remove rows as needed. Additional milestones may be agreed in writing
+> and appended as a signed Milestone Schedule amendment.
 
 ---
 

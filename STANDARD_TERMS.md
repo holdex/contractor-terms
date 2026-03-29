@@ -22,25 +22,41 @@
    within the original scope. If a change increases costs or time for the Contractor,
    both parties will agree in writing on fair adjustments to fees or deadlines.
 3. **Record-Keeping.** The Contractor is responsible for maintaining their own
-   copy of a trace log of all Services provided, including dates, hours worked,
-   tasks completed, and any relevant project references. This log must be retained
-   for the duration of the Agreement and for 1 year following its termination.
+   copy of a trace log of all Services provided, including dates, work completed,
+   hours worked (if hourly), milestones or project deliverables completed, and
+   any relevant project references. This log must be retained for the duration
+   of the Agreement and for 1 year following its termination.
 
 ---
 
 ## Compensation
 
-1. **Rate and Cycle.** As set in the Special Terms (hourly rate, monthly payments).
-2. **Invoices.** Submit at month-end for approved hours only. Research and
-   learning time is not paid unless pre-agreed in writing as part of scoping.
-3. **Taxes.** The Contractor handles all their own taxes, withholdings,
+1. **Payment Type.** The payment structure applicable to this Agreement is set in
+   the Special Terms and is one of: hourly rate, fixed per-project fee, or
+   milestone-based fee. The terms for each type are set out below.
+2. **Hourly Rate.** Where payment is hourly, the rate and payment cycle are as set
+   in the Special Terms. The Contractor must submit hours billed using PRs.
+   Holdex must approve all hours before payment. Research and learning time is
+   not paid unless pre-agreed in writing as part of scoping. Invoices are
+   submitted at month-end for approved hours only.
+3. **Per-Project Fee.** Where payment is a fixed per-project fee, the fee and
+   payment due date are as set in the Special Terms. Payment is due on completion
+   and written acceptance of the project deliverables by the Company, unless
+   otherwise specified in the Special Terms.
+4. **Milestone-Based Fee.** Where payment is milestone-based, the milestones,
+   associated fees, and due dates are agreed in writing before work begins and
+   recorded in the Special Terms or a signed Milestone Schedule. Each milestone
+   payment is due upon the Company's written acceptance of that milestone's
+   deliverables. Additional milestones may be agreed in writing by both Parties
+   as a signed amendment.
+5. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
-4. **Finality of Payment.** Any payment made by the Company for approved hours
-   or invoices constitutes full and final settlement of all claims relating to the
-   Services covered by that payment. The Contractor waives any right to dispute
-   or make further claims in respect of that invoice or payment period if no written
-   dispute is raised within 14 days after receipt of the payment. After this 14-day
-   period, the Contractor has no further recourse regarding the paid invoice.
+6. **Finality of Payment.** Any payment made by the Company for approved hours,
+   completed projects, or accepted milestones constitutes full and final settlement
+   of all claims relating to the Services covered by that payment. The Contractor
+   waives any right to dispute or make further claims in respect of that payment
+   if no written dispute is raised within 14 days after receipt. After this
+   14-day period, the Contractor has no further recourse regarding that payment.
 
 ---
 
