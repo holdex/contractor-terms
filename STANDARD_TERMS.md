@@ -64,6 +64,23 @@
 
 ---
 
+## Communication Channels
+
+1. **Approved Channels.** The Contractor must conduct all communications and activities on behalf of Holdex with other
+   contractors, Holdex employees, client representatives, or any third parties only through channels approved in writing
+   by Holdex.
+2. **Default Channel.** The default approved communication channel is Holdex's GitHub organization
+   (https://holdex.io/holdex).
+3. **Logging Outside Default Channel.** If communication occurs outside the Default Channel, the Contractor must log a
+   transcript or detailed summary in the Default Channel on the same day the communication happened. Alternatively, such
+   communication should be handled directly within the Default Channel. Unlogged communication will be considered
+   unofficial by Holdex.
+4. **Manager Notification.** If the Contractor is authorized to communicate outside the Default Channel, the Contractor
+   must keep their designated managers (as specified in the Special Terms) informed by including them in such
+   communications.
+
+---
+
 ## Representations and Warranties
 
 1. **Authority.** Each Party can legally sign this Agreement.
@@ -80,7 +97,9 @@
    and third-party secrets.
 3. **Permitted Use.** Only for Company work; no disclosure except to authorized
    Company personnel.
-4. **Return and Deletion.** On termination or expiration of this Agreement, or at the Company's request, the Contractor must promptly return or securely destroy all Confidential Information and its copies, including any Work Product or materials derived from it. The Contractor must then certify this completion in writing to the Company.
+4. **Return and Deletion.** On termination or expiration of this Agreement, or at the Company's request, the Contractor
+   must promptly return or securely destroy all Confidential Information and its copies, including any Work Product or
+   materials derived from it. The Contractor must then certify this completion in writing to the Company.
 
 ---
 
