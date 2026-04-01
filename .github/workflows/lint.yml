@@ -15,7 +15,7 @@ on:
 jobs:
   checks:
     if: github.event.pull_request.draft == false
-    uses: holdex/github-actions/.github/workflows/pr-checks.yml@<commit-sha>
+    uses: holdex/github-actions/.github/workflows/pr-checks.yml@05eefbf
     with:
       run-prettier: false
       run-markdown: true
