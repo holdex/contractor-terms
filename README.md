@@ -49,7 +49,7 @@ The contractor signs a document that references both:
 
 ### 1. Prepare the Special Terms
 
-Copy `SPECIAL_TERMS.md` to the private HR repository. Fill in all
+Copy [SPECIAL_TERMS.md](SPECIAL_TERMS.md) to the private HR repository and name it `AGREEMENT.md`. Fill in all
 `<!-- PLACEHOLDER -->` fields. In the Compensation section, keep only
 the subsection that applies to this contractor (Hourly, Per Project, or
 Milestone-Based) and delete the other two. Record the Standard Terms tag
@@ -59,7 +59,7 @@ currently in effect (e.g. `v1.1.0`) at the top of the document.
 
 Share the filled-in Special Terms with the contractor for review and signature.
 Signatures can be collected digitally (e.g. PandaDoc) or as a signed PDF scan.
-Store the signed copy in the private HR repository.
+Store the signed `AGREEMENT_SIGNED.pdf` file in the private HR repository.
 
 ### 3. Confirm the version on record
 
