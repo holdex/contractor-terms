@@ -245,15 +245,17 @@
 ## General Provisions
 
 1. **Entire Agreement.** Together with the Special Terms and the Standard Terms
-   version referenced therein, this Agreement constitutes the entire agreement and
-   supersedes all prior negotiations.
+   version referenced therein, this Agreement constitutes the entire agreement.
+   Prior agreements are superseded as set out in the Supersession clause of the
+   Special Terms.
 2. **Counterparts.** Signed in parts count as one original.
 3. **Amendment.** Changes to the Special Terms only in writing signed by both
    Parties. Changes to the Standard Terms are governed by the
    [Updates](#updates-to-these-standard-terms) section.
-4. **Notices.** In English, in writing, delivered by email to the addresses in the
-   Special Terms (for contractual notices only), or by GitHub release notification as described in the
-   [Updates](#updates-to-these-standard-terms) section.
+4. **Notices.** In English, in writing, delivered by email to the addresses in
+   the Special Terms (for contractual notices only), or by GitHub release
+   notification as described in the [Updates](#updates-to-these-standard-terms)
+   section.
 5. **Assignment.** No assignment without the other Party's written consent.
 6. **Governing Law.** Hong Kong law applies (no conflict of law rules).
 7. **No Waiver.** Delaying a right does not waive it.
