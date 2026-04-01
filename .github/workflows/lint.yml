@@ -13,9 +13,14 @@ on:
       - ready_for_review
 
 jobs:
-  lint:
+  checks:
     if: github.event.pull_request.draft == false
-    uses: holdex/github-actions/.github/workflows/markdown-check.yml@main
+    uses: holdex/github-actions/.github/workflows/pr-checks.yml@<commit-sha>
+    with:
+      run-prettier: false
+      run-markdown: true
+      run-commits: true
+      package-manager: bun
 
   check-links:
     if: github.event.pull_request.draft == false
