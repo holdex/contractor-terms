@@ -15,19 +15,24 @@ on:
 jobs:
   checks:
     if: github.event.pull_request.draft == false
-    uses: holdex/github-actions/.github/workflows/pr-checks.yml@05eefbf2dfd772dbb2c12b9985d21ac24c5da0e5
-    with:
-      run-prettier: false
-      run-markdown: true
-      run-commits: true
-      package-manager: bun
-
-  check-links:
-    if: github.event.pull_request.draft == false
-    needs: checks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: holdex/github-actions/.github/actions/base/checkout@main
+        with:
+          ref: 05eefbf2dfd772dbb2c12b9985d21ac24c5da0e5
+
+      - uses: ./.holdex-actions/.github/actions/base/setup-runtime
+        with:
+          package-manager: bun
+
+      - uses: ./.holdex-actions/.github/actions/composed/pr-checks
+        with:
+          run-prettier: false
+          run-markdown: true
+          run-commits: true
+          package-manager: bun
 
       - name: Check links
         uses: lycheeverse/lychee-action@v1
