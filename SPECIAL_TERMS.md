@@ -5,7 +5,7 @@
 > the Standard Terms published at:  
 > [github.com/holdex/contractor-terms](https://github.com/holdex/contractor-terms)
 >
-> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0 -->
+> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0.0 -->
 
 ---
 
@@ -100,8 +100,8 @@ the issue must follow this structure:
 
 ```text
 **Work Order — [Brief Title]**
-Agreement: [Contractor Full Name] — Special Terms v[X] / Standard Terms v[X]
-Payment Type: [Per-Project / Milestone-Based / Retainer + Commission]
+Agreement: [Contractor Full Name] — Special Terms v[X.Y.Z] / Standard Terms v[X.Y.Z]
+Payment Type: [Per-Project / Milestone-Based / Hourly]
 
 **Scope:**
 [Description of work to be delivered]

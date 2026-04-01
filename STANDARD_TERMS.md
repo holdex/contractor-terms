@@ -294,7 +294,7 @@
    to time by publishing a new tagged release to the repository at
    github.com/holdex/contractor-terms.
 2. **Notice of Updates.** The Company will notify the Contractor of any update by:
-   (i) tagging a new release in the repository (e.g., v1.1), and (ii) sending an
+   (i) tagging a new release in the repository (e.g., v1.1.0), and (ii) sending an
    email to the Contractor's registered Gmail address at least 14 days before the
    updated terms take effect. The email will include a link to the new release and
    a summary of material changes.

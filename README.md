@@ -30,7 +30,7 @@ Each contractor engagement produces two documents:
 
 **1. Standard Terms** (`STANDARD_TERMS.md`)
 The boilerplate legal terms governing all contractor relationships. Versioned
-by git tags (e.g. `v1.0`). The tag is the version — git timestamps it
+by git tags (e.g. `v1.0.0`). The tag is the version — git timestamps it
 automatically. Never edited retroactively.
 
 **2. Special Terms** (`SPECIAL_TERMS.md`)
@@ -40,7 +40,7 @@ version in the private HR repository alongside any signed artifacts.
 
 The contractor signs a document that references both:
 
-- The Standard Terms by tag (e.g. `v1.0`)
+- The Standard Terms by tag (e.g. `v1.0.0`)
 - The Special Terms by the commit of their filled-in copy
 
 ---
@@ -53,7 +53,7 @@ Copy `SPECIAL_TERMS.md` to the private HR repository. Fill in all
 `<!-- PLACEHOLDER -->` fields. In the Compensation section, keep only
 the subsection that applies to this contractor (Hourly, Per Project, or
 Milestone-Based) and delete the other two. Record the Standard Terms tag
-currently in effect (e.g. `v1.0`) at the top of the document.
+currently in effect (e.g. `v1.1.0`) at the top of the document.
 
 ### 2. Send for signing
 
@@ -109,12 +109,12 @@ Once approved and merged:
 ```bash
 git checkout main
 git pull
-git tag v1.1        # increment the version number
-git push origin v1.1
+git tag v1.1.0      # increment the version number
+git push origin v1.1.0
 ```
 
-Then go to **GitHub → Releases → Draft a new release**, select the tag,
-and publish. Copy the release URL — you will need it for contractor notifications.
+Then go to [GitHub → Releases → Draft a new release](https://github.com/holdex/contractor-terms/releases/new), select
+the tag, and publish. Copy the release URL — you will need it for contractor notifications.
 
 ### 6. Notify contractors
 
@@ -124,17 +124,17 @@ Send an email to all active contractors with:
 - A link to the new release
 - The date the new terms take effect (minimum 14 days from the email date)
 
-Use the subject line: `Holdex Contractor Terms Update — v1.1 effective [DATE]`
+Use the subject line: `Holdex Contractor Terms Update — [version_number] effective [DATE]`
 
 ---
 
 ## Versioning Convention
 
-| Tag    | Meaning                                                                    |
-| ------ | -------------------------------------------------------------------------- |
-| `v1.0` | Initial release                                                            |
-| `v1.1` | Minor update — clarification, new clause, small change                     |
-| `v2.0` | Major update — significant change to rights, obligations, or payment terms |
+| Tag      | Meaning                                                                    |
+| -------- | -------------------------------------------------------------------------- |
+| `v1.0.0` | Initial release                                                            |
+| `v1.1.0` | Minor update — clarification, new clause, small change                     |
+| `v2.0.0` | Major update — significant change to rights, obligations, or payment terms |
 
 When in doubt, increment the minor version. Use a major version bump when
 the change materially affects contractor obligations or Company rights —
