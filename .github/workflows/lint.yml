@@ -41,6 +41,7 @@ jobs:
             --verbose
             --no-progress
             --exclude-mail
+            --exclude-path node_modules
             '**/*.md'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
