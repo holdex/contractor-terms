@@ -146,8 +146,9 @@
 
 ## Confidential Information
 
-1. **Obligation.** The Contractor (and its staff) must keep all
-   Company information confidential indefinitely.
+1. **Obligation.** The Contractor (and its staff) must keep all general Company
+   information confidential for 3 years from the date of termination of this
+   Agreement. Trade secrets must be kept confidential indefinitely.
 2. **Scope.** Covers IP, projects, technology, business matters, client data,
    and third-party secrets.
 3. **Permitted Use.** Only for Company work; no disclosure except to authorized
@@ -175,8 +176,14 @@
    created for the Company is owned 100% by the Company as "work made for hire."
 2. **Assignment.** The Contractor assigns all IP rights to the Company from
    the date of creation.
-3. **Moral Rights.** The Contractor waives all moral rights (e.g., authorship claims).
-4. **Assistance.** The Contractor will sign documents or assist the Company to
+3. **Pre-Existing IP.** Notwithstanding the foregoing, all Contractor
+   pre-existing intellectual property, tools, methodologies, and general
+   knowledge shall remain the Contractor's property. The Company receives a
+   perpetual, non-exclusive license to use any pre-existing IP incorporated
+   into Work Product.
+4. **Moral Rights.** To the extent permitted by applicable law, the Contractor
+   waives all moral rights in Work Product (e.g., authorship claims).
+5. **Assistance.** The Contractor will sign documents or assist the Company to
    protect its IP during and after the term.
 
 ---
@@ -185,8 +192,9 @@
 
 1. **Employees.** During the term and for 1 year after termination, neither Party
    shall solicit or hire the other's employees without prior written consent.
-2. **Clients.** During the term and for 3 years after termination, the Contractor
-   shall not solicit the Company's clients with whom it worked under this Agreement.
+2. **Clients.** During the term and for 1 year after termination, the Contractor
+   shall not solicit any client of the Company with whom the Contractor worked under this Agreement for
+   services substantially similar to those provided under this Agreement.
 
 ---
 
@@ -230,13 +238,18 @@
 
 ## Indemnification
 
-1. **Indemnity.** The Contractor indemnifies the Company (and its officers,
-   directors, employees, agents) against claims arising from: (i) the Contractor's
-   negligence or intentional acts; (ii) breach of this Agreement; (iii) issues
-   with Work Product.
-2. **Notice.** The Company notifies the Contractor promptly of any claims.
-3. **Survival.** This section survives termination.
-4. **Liability Cap.** The Contractor's total liability under this Agreement is
+1. **Contractor Indemnity.** The Contractor indemnifies the Company (and its
+   officers, directors, employees, agents) against claims arising from:
+   (i) the Contractor's negligence or intentional acts; (ii) breach of this
+   Agreement by the Contractor; (iii) issues with Work Product.
+2. **Company Indemnity.** The Company shall indemnify the Contractor against
+   claims arising from: (i) the Company's gross negligence or willful misconduct;
+   (ii) the Company's breach of this Agreement; (iii) third-party intellectual
+   property claims related to materials provided by the Company to the Contractor.
+3. **Notice.** Each Party notifies the other promptly of any claims for which
+   indemnification may be sought.
+4. **Survival.** This section survives termination.
+5. **Liability Cap.** The Contractor's total liability under this Agreement is
    limited to the total fees paid to the Contractor, except for liability arising
    from the Contractor's willful misconduct or gross negligence.
 
@@ -291,8 +304,8 @@
    they may terminate this Agreement under the [Termination](#termination) section
    within the 14-day notice period without penalty.
 5. **Version on Record.** The version of the Standard Terms that applies to each
-   signed Agreement is the version tagged at the time of signing, as recorded in the
-   Special Terms. Any updates apply prospectively only.
+   signed Agreement is the version tagged at the time of signing, as recorded in
+   the Special Terms. Any updates apply prospectively only.
 
 ---
 

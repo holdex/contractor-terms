@@ -10,13 +10,26 @@ at least 14 days before changes take effect.
 
 **Standard Terms:**
 
+- Confidential Information — general business information obligation reduced
+  from indefinite to 3 years from termination date; trade secrets remain
+  indefinitely confidential
+- Intellectual Property — pre-existing IP carve-out added; Contractor retains
+  ownership of pre-existing tools, methodologies, and general knowledge; Company
+  receives a perpetual non-exclusive license to use any pre-existing IP
+  incorporated into Work Product
+- Intellectual Property — moral rights waiver qualified to "to the extent
+  permitted by applicable law" to accommodate jurisdictions where moral rights
+  are inalienable (e.g. Italy, EU)
+- Non-Solicitation — employee non-solicitation made mutual;
+  client non-solicitation reduced from 3 years to 1 year, and narrowed to services
+  substantially similar to those provided under this Agreement
+- Indemnification — mutual indemnification added; Company now indemnifies
+  Contractor against its own gross negligence, willful misconduct, breach, and
+  third-party IP claims related to materials provided by the Company; Notice
+  clause made mutual
 - General Provisions — Entire Agreement clause now cross-references the
   Supersession clause in Special Terms rather than restating it
 - Notices clause line length fixed for formatting consistency
-
-**Special Terms template:**
-
-- Supersession clause preserved and clarified
 
 ---
 
