@@ -28,6 +28,23 @@
    hours worked (if Retainer), milestones or project deliverables completed, and
    any relevant Work Order or task references. This log must be retained for the
    duration of the Agreement and for 1 year following its termination.
+4. **Subcontracting.** The Contractor may not subcontract, delegate, or assign
+   any part of the Services to any third party without the prior written approval
+   of the Company. If approval is granted, the Contractor remains fully liable for
+   all acts and omissions of any approved subcontractor as if they were the
+   Contractor's own. Any approved subcontractor must be bound in writing by
+   obligations at least equivalent to those imposed on the Contractor under this
+   Agreement, including obligations relating to confidentiality, intellectual
+   property, and data protection.
+5. **Audit Right.** The Company may, on not less than 5 business days' written
+   notice, request that the Contractor provide a copy of the trace log referred
+   to in the Record-Keeping clause above, together with any supporting records (including PR histories,
+   commit logs, time-stamped work records, and communications) for any period
+   during the preceding 12 months. The Contractor must comply within the notice
+   period. If an audit reveals that the Contractor has been paid for hours or
+   deliverables not actually performed or delivered, the Contractor must repay
+   the relevant amount to the Company within 14 days of written demand. This
+   right does not limit any other remedy available to the Company.
 
 ---
 
@@ -39,7 +56,13 @@
    tasks assigned through the default GitHub channel, logs hours via PRs, and
    is paid monthly at the hourly rate in the Special Terms. Research and learning
    time is not paid unless pre-agreed in writing as part of task scoping.
-2. **Project and Milestone.** Where the Engagement Mode in the Special Terms is
+2. **Retainer — Monthly Hours Cap.** Where a Monthly Hours Cap is specified in
+   the Special Terms Rate Card, the Contractor may not bill hours in any calendar
+   month that exceed that cap without prior written approval from an Authorised
+   Issuer. Hours billed above the cap without such approval are not payable by
+   the Company. Where no Monthly Hours Cap is specified in the Special Terms, no
+   cap applies unless separately agreed in writing.
+3. **Project and Milestone.** Where the Engagement Mode in the Special Terms is
    Project/Milestone, each discrete engagement requires a formal Work Order
    before work begins, as defined in the Work Orders section. Payment terms are
    defined per Work Order.
@@ -67,6 +90,17 @@
    otherwise and is countersigned by both Parties.
 6. **No Guarantee of Work.** This Agreement does not guarantee the Company will
    issue any minimum number of Work Orders or volume of work to the Contractor.
+7. **Rejection and Cure.** If an Authorised Issuer does not accept a deliverable
+   submitted under a Work Order, the Authorised Issuer must provide written
+   reasons for the rejection within a reasonable time of submission. The Contractor
+   shall then have a cure period of not less than 5 business days (or such longer
+   period as the Parties agree in writing) to address the stated reasons and
+   resubmit the deliverable. This process may be repeated if the resubmitted
+   deliverable is again rejected. A deliverable is deemed accepted if the
+   Authorised Issuer does not provide written reasons for rejection within
+   10 business days of submission or resubmission. Payment obligations under the
+   Compensation section are triggered only upon written acceptance or deemed
+   acceptance under the Rejection and Cure clause above.
 
 ---
 
@@ -86,9 +120,15 @@
 4. **Milestone-Based Fee.** Each milestone payment is due upon written acceptance
    of that milestone's deliverables by an Authorised Issuer, as defined in the
    Work Order.
-5. **Taxes.** The Contractor handles all their own taxes, withholdings,
+5. **Invoice Submission Deadline.** The Contractor must submit invoices within
+   30 days of: (i) the end of each calendar month, for Retainer
+   engagements; or (ii) the date of written acceptance of the relevant project
+   deliverables or milestone, for Project and Milestone engagements. The Company
+   is not obligated to process or pay any invoice submitted after this deadline.
+   Late invoices may be accepted at the Company's sole discretion.
+6. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
-6. **Finality of Payment.** Any payment made by the Company for approved hours,
+7. **Finality of Payment.** Any payment made by the Company for approved hours,
    completed projects, or accepted milestones constitutes full and final settlement
    of all claims relating to the Services covered by that payment. The Contractor
    waives any right to dispute or make further claims in respect of that payment
@@ -161,6 +201,44 @@
 
 ---
 
+## Data Protection and Information Security
+
+1. **PDPO Compliance.** The Contractor shall comply with the Personal Data
+   (Privacy) Ordinance (Cap. 486, Hong Kong) ("PDPO") as it applies to the
+   Company's operations, and all other applicable
+   data protection laws when handling any personal data accessed in connection
+   with the Services. Personal data shall be used only for the purpose for which
+   it was collected and only to the extent necessary to perform the Services.
+2. **Permitted Use.** The Contractor shall not collect, process, copy, transfer,
+   or otherwise use Company data or personal data for any purpose other than
+   performing the Services under this Agreement without the Company's prior written
+   consent.
+3. **Security Measures.** The Contractor must implement and maintain appropriate
+   technical and organisational security measures to protect Company data and
+   personal data against unauthorised access, disclosure, alteration, or
+   destruction. Required measures include, at minimum: (i) full-disk encryption
+   on all devices used to access Company systems or data; (ii) use of unique,
+   strong credentials for each Company system, managed using a reputable password
+   manager, combined with multi-factor authentication (MFA) where available;
+   (iii) maintaining up-to-date operating systems, applications, and anti-malware
+   software on all devices used for Services; and (iv) using secure network
+   connections (e.g., Company-provided VPN) when accessing sensitive Company
+   systems or data from external networks. Credentials must not be shared with
+   or disclosed to any person not authorised by the Company.
+4. **Incident Notification and Recovery.** The Contractor must notify the Company in writing
+   within 24 hours of becoming aware of any actual or suspected security incident,
+   data breach, or unauthorised access involving Company data or personal data.
+   The notification must describe the nature of the incident, the data affected,
+   and the steps taken or proposed to contain and remediate it. If any such
+   incident is caused by the Contractor's failure to comply with its obligations
+   under this Data Protection and Information Security section, the Contractor
+   shall be responsible for the reasonable costs incurred by the Company for the
+   investigation, containment, and recovery of the incident.
+5. **Survival.** The obligations in this section survive termination or expiration
+   of this Agreement.
+
+---
+
 ## Information Sharing
 
 1. **Multiple Projects.** The Contractor may be assigned to projects for Holdex
@@ -181,10 +259,28 @@
    knowledge shall remain the Contractor's property. The Company receives a
    perpetual, non-exclusive license to use any pre-existing IP incorporated
    into Work Product.
-4. **Moral Rights.** To the extent permitted by applicable law, the Contractor
+4. **Prior Inventions Disclosure.** To benefit from the Pre-Existing IP
+   carve-out in the Pre-Existing IP clause above, the Contractor must list all
+   relevant pre-existing intellectual property, tools, methodologies, and materials
+   (collectively, "Prior Inventions") in the Prior Inventions schedule in the
+   Special Terms at the time of signing. Any Prior Invention not listed in that
+   schedule that is incorporated into Work Product shall be presumed to be owned
+   by the Company and subject to the full assignment under the Assignment clause. The list may not be amended
+   after signing without written consent of both Parties.
+5. **Moral Rights.** To the extent permitted by applicable law, the Contractor
    waives all moral rights in Work Product (e.g., authorship claims).
-5. **Assistance.** The Contractor will sign documents or assist the Company to
+6. **Assistance.** The Contractor will sign documents or assist the Company to
    protect its IP during and after the term.
+7. **Third-Party IP Warranty.** The Contractor warrants that: (i) all Work
+   Product delivered under this Agreement is original and created solely by the
+   Contractor, except for any third-party or open source materials expressly
+   disclosed to and approved by the Company in writing before incorporation;
+   (ii) the Work Product does not include any unlicensed third-party intellectual
+   property or open source code that would restrict the Company's ability to use,
+   distribute, or commercialise the Work Product; and (iii) the Contractor has
+   full authority to assign the rights in the Work Product to the Company as
+   required by this Agreement. The Contractor shall indemnify the Company against
+   any claim arising from a breach of this warranty.
 
 ---
 
@@ -233,6 +329,22 @@
    will be resolved under the [Dispute Resolution](#dispute-resolution) section.
    Any IP created as part of a partially completed milestone transfers to the
    Company regardless of whether payment has been agreed.
+5. **Termination for Cause.** Notwithstanding the Notice clause above, the Company may terminate
+   this Agreement immediately, without notice and without any payment obligation
+   for the notice period, upon the occurrence of any of the following: (i) material
+   breach of this Agreement by the Contractor that is not remedied within 5 business
+   days of written notice (or is not capable of remedy); (ii) fraud or wilful
+   misrepresentation by the Contractor in connection with this Agreement or any
+   invoice; (iii) criminal conduct by the Contractor; (iv) breach of the
+   Confidential Information or Data Protection and Information Security sections
+   of these Standard Terms; or (v) violation of any applicable law by the
+   Contractor in connection with the performance of Services. Termination for
+   cause does not affect the Company's right to seek damages or other remedies.
+   Upon termination for cause, the Company's payment obligation is limited to work
+   completed and accepted by an Authorised Issuer prior to the date of termination.
+   Any such payment shall be net of any amounts due from the Contractor to the Company
+   under this Agreement, including costs for which the Contractor is responsible
+   under the Data Protection and Information Security section.
 
 ---
 
@@ -298,12 +410,16 @@
    email to the Contractor's registered Gmail address at least 14 days before the
    updated terms take effect. The email will include a link to the new release and
    a summary of material changes.
-3. **Acceptance.** Continued provision of Services after the 14-day notice period
+3. **Summary for Convenience Only.** Any summary of changes provided in an update
+   notification (including in the email, release notes, or changelog) is for
+   informational convenience only. In the event of any inconsistency between that
+   summary and the full text of the updated Standard Terms, the full text prevails.
+4. **Acceptance.** Continued provision of Services after the 14-day notice period
    constitutes the Contractor's acceptance of the updated Standard Terms.
-4. **Right to Terminate.** If the Contractor does not accept the updated terms,
+5. **Right to Terminate.** If the Contractor does not accept the updated terms,
    they may terminate this Agreement under the [Termination](#termination) section
    within the 14-day notice period without penalty.
-5. **Version on Record.** The version of the Standard Terms that applies to each
+6. **Version on Record.** The version of the Standard Terms that applies to each
    signed Agreement is the version tagged at the time of signing, as recorded in
    the Special Terms. Any updates apply prospectively only.
 
