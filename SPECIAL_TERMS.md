@@ -5,7 +5,7 @@
 > the Standard Terms published at:  
 > [github.com/holdex/contractor-terms](https://github.com/holdex/contractor-terms)
 >
-> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0 -->
+> **Standard Terms version applicable to this Agreement:** <!-- e.g. v1.0.0 -->
 
 ---
 
@@ -71,10 +71,11 @@
 
 > Applies only if Engagement Mode is Retainer. Leave blank otherwise.
 
-| Field           | Value                  |
-| --------------- | ---------------------- |
-| Rate (USD/hour) | <!-- RATE_PER_HOUR --> |
-| Payment Cycle   | Monthly                |
+| Field             | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Rate (USD/hour)   | <!-- RATE_PER_HOUR -->                   |
+| Payment Cycle     | Monthly                                  |
+| Monthly Hours Cap | <!-- MONTHLY_HOURS_CAP (or "None") -->   |
 
 ### Project and Milestone Fees
 
@@ -100,8 +101,8 @@ the issue must follow this structure:
 
 ```text
 **Work Order — [Brief Title]**
-Agreement: [Contractor Full Name] — Special Terms v[X] / Standard Terms v[X]
-Payment Type: [Per-Project / Milestone-Based / Retainer + Commission]
+Agreement: [Contractor Full Name] — Special Terms v[X.Y.Z] / Standard Terms v[X.Y.Z]
+Payment Type: [Per-Project / Milestone-Based / Hourly]
 
 **Scope:**
 [Description of work to be delivered]
@@ -137,6 +138,25 @@ and arrangements between the Parties relating to the subject matter herein,
 whether written or oral, with immediate effect from the date of signing.  
 Any accrued rights or obligations under a prior agreement — including approved  
 but unpaid amounts — remain valid and are not affected by this supersession.
+
+---
+
+## Prior Inventions Schedule
+
+> This schedule is required by the Intellectual Property section of the Standard
+> Terms. List all pre-existing intellectual property, tools, methodologies, and
+> materials that the Contractor owns or has rights to and that may be incorporated
+> into Work Product delivered under this Agreement. If there are no Prior
+> Inventions to disclose, write "None" in the table below.
+>
+> This schedule cannot be amended after the Agreement is signed without the
+> written consent of both Parties.
+
+| # | Description of Prior Invention     | Ownership / Licence Basis |
+| - | ----------------------------------- | ------------------------- |
+| 1 | <!-- PRIOR_INVENTION_1 or "None" --> |                           |
+
+> Add rows as needed.
 
 ---
 
