@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: holdex/github-actions/.github/actions/base/checkout@main
+      - uses: holdex/github-actions/.github/actions/base/checkout@05eefbf2dfd772dbb2c12b9985d21ac24c5da0e5
         with:
           ref: 05eefbf2dfd772dbb2c12b9985d21ac24c5da0e5
 
@@ -41,6 +41,7 @@ jobs:
             --verbose
             --no-progress
             --exclude-mail
+            --exclude-path .holdex-actions
             --exclude-path node_modules
             '**/*.md'
         env:

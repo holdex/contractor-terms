@@ -58,7 +58,9 @@ currently in effect (e.g. `v1.1.0`) at the top of the document.
 ### 2. Send for signing
 
 Share the filled-in Special Terms with the contractor for review and signature.
-Signatures can be collected digitally (e.g. PandaDoc) or as a signed PDF scan.
+
+Signatures are collected digitally through PandaDoc.
+
 Store the signed `AGREEMENT_SIGNED.pdf` file in the private HR repository.
 
 ### 3. Confirm the version on record
