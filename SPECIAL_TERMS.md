@@ -71,11 +71,11 @@
 
 > Applies only if Engagement Mode is Retainer. Leave blank otherwise.
 
-| Field             | Value                                    |
-| ----------------- | ---------------------------------------- |
-| Rate (USD/hour)   | <!-- RATE_PER_HOUR -->                   |
-| Payment Cycle     | Monthly                                  |
-| Monthly Hours Cap | <!-- MONTHLY_HOURS_CAP (or "None") -->   |
+| Field             | Value                                  |
+| ----------------- | -------------------------------------- |
+| Rate (USD/hour)   | <!-- RATE_PER_HOUR -->                 |
+| Payment Cycle     | Monthly                                |
+| Monthly Hours Cap | <!-- MONTHLY_HOURS_CAP (or "None") --> |
 
 ### Project and Milestone Fees
 
@@ -152,9 +152,9 @@ but unpaid amounts — remain valid and are not affected by this supersession.
 > This schedule cannot be amended after the Agreement is signed without the
 > written consent of both Parties.
 
-| # | Description of Prior Invention     | Ownership / Licence Basis |
-| - | ----------------------------------- | ------------------------- |
-| 1 | <!-- PRIOR_INVENTION_1 or "None" --> |                           |
+| #   | Description of Prior Invention       | Ownership / Licence Basis |
+| --- | ------------------------------------ | ------------------------- |
+| 1   | <!-- PRIOR_INVENTION_1 or "None" --> |                           |
 
 > Add rows as needed.
 
@@ -169,8 +169,8 @@ these Special Terms and the Standard Terms at the version referenced above.
 | ------------- | ------------------ | -------------------------------------- |
 | **Name**      | Vadim Zolotokrylin | <!-- FIRST_NAME --> <!-- LAST_NAME --> |
 | **Title**     | CEO                |                                        |
-| **Signature** |                    |                                        |
-| **Date**      |                    |                                        |
+| **Signature** |                    | <!-- do not fill manually -->          |
+| **Date**      |                    | <!-- do not fill manually -->          |
 
 ---
 
