@@ -256,9 +256,10 @@
    or disburse funds, the Contractor must decline and notify an Authorised Issuer
    immediately.
 2. **Incident Costs.** If a loss of client funds results from the Contractor's
-   breach of this section, the Contractor is responsible for the reasonable costs
-   of investigation and remediation, consistent with the Indemnification section
-   of these Standard Terms.
+   breach of this section, the Contractor is responsible for the full amount of
+   those losses together with the reasonable costs of investigation and
+   remediation. This liability is not subject to the Liability Cap in the
+   Indemnification section.
 
 ---
 
@@ -377,7 +378,8 @@
 4. **Survival.** This section survives termination.
 5. **Liability Cap.** The Contractor's total liability under this Agreement is
    limited to the total fees paid to the Contractor, except for liability arising
-   from the Contractor's willful misconduct or gross negligence.
+   from the Contractor's willful misconduct or gross negligence, or from a breach
+   of the Fund Handling section.
 
 ---
 
