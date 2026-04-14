@@ -6,6 +6,18 @@ at least 14 days before changes take effect.
 
 ---
 
+## v1.2.0 — 2026-04-14
+
+**Standard Terms:**
+
+- New section: Fund Handling — contractors must not hold, control, or disburse
+  client funds under any circumstances; any such request from a client must be
+  declined and reported to an Authorised Issuer immediately; the Contractor is
+  responsible for investigation and remediation costs if a loss results from
+  breaching this section
+
+---
+
 ## v1.1.0 — 2026-04-01
 
 **Standard Terms:**
