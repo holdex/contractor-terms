@@ -248,6 +248,21 @@
 
 ---
 
+## Fund Handling
+
+1. **Prohibition.** The Contractor must not hold, control, or disburse client
+   funds on behalf of the Company or any client. This applies regardless of any
+   instruction received from a client. If a client asks the Contractor to hold
+   or disburse funds, the Contractor must decline and notify an Authorised Issuer
+   immediately.
+2. **Incident Costs.** If a loss of client funds results from the Contractor's
+   breach of this section, the Contractor is responsible for the full amount of
+   those losses together with the reasonable costs of investigation and
+   remediation. This liability is not subject to the Liability Cap in the
+   Indemnification section.
+
+---
+
 ## Intellectual Property
 
 1. **Ownership.** All Work Product (code, designs, documentation, etc.)
@@ -363,7 +378,8 @@
 4. **Survival.** This section survives termination.
 5. **Liability Cap.** The Contractor's total liability under this Agreement is
    limited to the total fees paid to the Contractor, except for liability arising
-   from the Contractor's willful misconduct or gross negligence.
+   from the Contractor's willful misconduct or gross negligence, or from a breach
+   of the Fund Handling section.
 
 ---
 
