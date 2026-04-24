@@ -126,9 +126,14 @@
    deliverables or milestone, for Project and Milestone engagements. The Company
    is not obligated to process or pay any invoice submitted after this deadline.
    Late invoices may be accepted at the Company's sole discretion.
-6. **Taxes.** The Contractor handles all their own taxes, withholdings,
+6. **Payment Deadline.** The Company will process payment within 30 calendar
+   days of approving a valid invoice. This deadline applies to all Engagement
+   Modes. The Company is not in breach of this obligation if a delay is caused
+   by the Contractor's failure to submit a compliant invoice or provide
+   information reasonably required to process payment.
+7. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
-7. **Finality of Payment.** Any payment made by the Company for approved hours,
+8. **Finality of Payment.** Any payment made by the Company for approved hours,
    completed projects, or accepted milestones constitutes full and final settlement
    of all claims relating to the Services covered by that payment. The Contractor
    waives any right to dispute or make further claims in respect of that payment

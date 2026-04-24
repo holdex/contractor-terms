@@ -6,6 +6,17 @@ at least 14 days before changes take effect.
 
 ---
 
+## v1.3.0 — 2026-04-24
+
+**Standard Terms:**
+
+- New clause in Compensation: the Company must process payment within 30
+  calendar days of approving a valid invoice, across all Engagement Modes.
+  This obligation does not apply if the delay is caused by the Contractor
+  failing to submit a compliant invoice or provide required payment information.
+
+---
+
 ## v1.2.0 — 2026-04-14
 
 **Standard Terms:**
