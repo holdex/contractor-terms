@@ -136,9 +136,16 @@
    Modes. The Company is not in breach of this obligation if a delay is caused
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
-8. **Taxes.** The Contractor handles all their own taxes, withholdings,
+8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
+   multiplied by the Contractor's Absolute Quality Percentile (AQPT) for that
+   month: `payout = (AQPT / 100) × base_salary`. AQPT reflects work quality —
+   each bug attributed to the Contractor via the Wizard bug blame command
+   reduces it. The Contractor may dispute an attribution using the Wizard
+   dispute command. Both commands are documented at
+   <https://wizard.holdex.io/docs/commands/>.
+9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
-9. **Finality of Payment.** Any payment made by the Company for approved hours,
+10. **Finality of Payment.** Any payment made by the Company for approved hours,
    completed projects, or accepted milestones constitutes full and final settlement
    of all claims relating to the Services covered by that payment. The Contractor
    waives any right to dispute or make further claims in respect of that payment
