@@ -154,7 +154,7 @@
    - `bugHours` — hours the Contractor logged on the PR that caused the bug,
      counted in the month the attribution is recorded, not the month the PR was
      originally merged. Payout cannot be negative; any excess bugHours beyond
-     totalHours do not carry forward to subsequent months.
+     totalHours carry forward to the following month.
 
    Example: the Contractor logged 4 h on PR A in January. PR A is attributed as
    a bug in March. Those 4 h count as bug hours in March, reducing the March
