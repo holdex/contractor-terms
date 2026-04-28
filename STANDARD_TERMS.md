@@ -137,13 +137,23 @@
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
-   adjusted based on bug hours attributed to the Contractor that month:
-   `payout = (1 - bugHours / totalHours) × base_salary`. Bug hours are the
-   total hours logged on PRs attributed to the Contractor as bugs during the
-   month, counted when the attribution is recorded regardless of when the
-   original PR was merged. Attributions are recorded in writing in the Holdex
-   GitHub organisation. The Contractor may dispute any attribution in writing
-   within 14 days of notification.
+   reduced by any hours attributed to the Contractor as bugs that month:
+
+   `payout = (1 - bugHours / totalHours) × base_salary`
+
+   - `totalHours` — total approved hours logged by the Contractor in the month.
+   - `bugHours` — hours the Contractor logged on the PR that caused the bug,
+     counted in the month the attribution is recorded, not the month the PR was
+     originally merged.
+
+   Example: the Contractor logged 4 h on PR A in January. PR A is attributed as
+   a bug in March. Those 4 h count as bug hours in March, reducing the March
+   payout.
+
+   Attributions are recorded in writing in the Holdex GitHub organisation. The
+   Contractor may dispute any attribution in writing within 14 days of receiving
+   notification of that attribution. A successfully disputed attribution is
+   excluded from the bug hours calculation.
 9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
 10. **Finality of Payment.** Any payment made by the Company for approved hours,
