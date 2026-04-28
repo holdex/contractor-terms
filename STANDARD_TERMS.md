@@ -139,11 +139,11 @@
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
    adjusted based on bug hours attributed to the Contractor that month:
    `payout = (1 - bugHours / totalHours) × base_salary`. Bug hours are the
-   total hours logged on PRs blamed to the Contractor during the month,
-   counted in the month the blame is recorded regardless of when the PR was
-   merged. Bug attribution is made via the Wizard bug blame command; the
-   Contractor may dispute an attribution using the Wizard dispute command.
-   Both commands are documented at <https://wizard.holdex.io/docs/commands/>.
+   total hours logged on PRs attributed to the Contractor as bugs during the
+   month, counted when the attribution is recorded regardless of when the
+   original PR was merged. Attributions are recorded in writing in the Holdex
+   GitHub organisation. The Contractor may dispute any attribution in writing
+   within 14 days of notification.
 9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
 10. **Finality of Payment.** Any payment made by the Company for approved hours,
