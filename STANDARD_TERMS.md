@@ -139,9 +139,10 @@
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
    reduced by any hours attributed to the Contractor as bugs that month:
 
-   `payout = (1 - bugHours / totalHours) × base_salary`
+   `payout = (totalHours - bugHours) × hourlyRate`
 
    - `totalHours` — total approved hours logged by the Contractor in the month.
+   - `hourlyRate` — the hourly rate in the Special Terms.
    - `bugHours` — hours the Contractor logged on the PR that caused the bug,
      counted in the month the attribution is recorded, not the month the PR was
      originally merged.
