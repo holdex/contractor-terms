@@ -101,6 +101,14 @@
    10 business days of submission or resubmission. Payment obligations under the
    Compensation section are triggered only upon written acceptance or deemed
    acceptance under the Rejection and Cure clause above.
+8. **Post-Acceptance Warranty.** For Project and Milestone engagements, the
+   Contractor warrants that each accepted deliverable will be free from material
+   defects for 90 days following written acceptance (the "Warranty Period"). If
+   the Company notifies the Contractor in writing of a defect during the Warranty
+   Period, the Contractor must remedy the defect at no additional charge within a
+   reasonable time. This warranty does not apply to defects caused by:
+   (i) modifications to the deliverable made by the Company or a third party after
+   acceptance; or (ii) requirements not specified in the relevant Work Order.
 
 ---
 
