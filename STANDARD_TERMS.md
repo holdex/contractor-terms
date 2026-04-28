@@ -137,12 +137,13 @@
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
-   multiplied by the Contractor's Absolute Quality Percentile (AQPT) for that
-   month: `payout = (AQPT / 100) × base_salary`. AQPT reflects work quality —
-   each bug attributed to the Contractor via the Wizard bug blame command
-   reduces it. The Contractor may dispute an attribution using the Wizard
-   dispute command. Both commands are documented at
-   <https://wizard.holdex.io/docs/commands/>.
+   adjusted based on bug hours attributed to the Contractor that month:
+   `payout = (1 - bugHours / totalHours) × base_salary`. Bug hours are the
+   total hours logged on PRs blamed to the Contractor during the month,
+   counted in the month the blame is recorded regardless of when the PR was
+   merged. Bug attribution is made via the Wizard bug blame command; the
+   Contractor may dispute an attribution using the Wizard dispute command.
+   Both commands are documented at <https://wizard.holdex.io/docs/commands/>.
 9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
 10. **Finality of Payment.** Any payment made by the Company for approved hours,
