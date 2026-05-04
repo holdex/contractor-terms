@@ -101,6 +101,14 @@
    10 business days of submission or resubmission. Payment obligations under the
    Compensation section are triggered only upon written acceptance or deemed
    acceptance under the Rejection and Cure clause above.
+8. **Post-Acceptance Warranty.** For Project and Milestone engagements, the
+   Contractor warrants that each accepted deliverable will be free from material
+   defects for 90 days following written acceptance (the "Warranty Period"). If
+   the Company notifies the Contractor in writing of a defect during the Warranty
+   Period, the Contractor must remedy the defect at no additional charge within a
+   reasonable time. This warranty does not apply to defects caused by:
+   (i) modifications to the deliverable made by the Company or a third party after
+   acceptance; or (ii) requirements not specified in the relevant Work Order.
 
 ---
 
@@ -136,9 +144,29 @@
    Modes. The Company is not in breach of this obligation if a delay is caused
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
-8. **Taxes.** The Contractor handles all their own taxes, withholdings,
+8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
+   reduced by any hours attributed to the Contractor as bugs that month:
+
+   `payout = max(0, (totalHours - bugHours) × hourlyRate)`
+
+   - `totalHours` — total approved hours logged by the Contractor in the month.
+   - `hourlyRate` — the hourly rate in the Special Terms.
+   - `bugHours` — hours the Contractor logged on the PR that caused the bug,
+     counted in the month the attribution is recorded, not the month the PR was
+     originally merged. Payout cannot be negative; any excess bugHours beyond
+     totalHours carry forward to the following month.
+
+   Example: the Contractor logged 4 h on PR A in January. PR A is attributed as
+   a bug in March. Those 4 h count as bug hours in March, reducing the March
+   payout.
+
+   Attributions are recorded in writing in the Holdex GitHub organisation. The
+   Contractor may dispute any attribution in writing within 14 days of receiving
+   notification of that attribution. A successfully disputed attribution is
+   excluded from the bug hours calculation.
+9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
-9. **Finality of Payment.** Any payment made by the Company for approved hours,
+10. **Finality of Payment.** Any payment made by the Company for approved hours,
    completed projects, or accepted milestones constitutes full and final settlement
    of all claims relating to the Services covered by that payment. The Contractor
    waives any right to dispute or make further claims in respect of that payment
