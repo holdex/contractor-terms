@@ -146,6 +146,7 @@
    information reasonably required to process payment.
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
    reduced by any hours attributed to the Contractor as bugs that month:
+
    `payout = max(0, (totalHours - bugHours) × hourlyRate)`
    - `totalHours` — total approved hours logged by the Contractor in the month.
    - `hourlyRate` — the hourly rate in the Special Terms.
