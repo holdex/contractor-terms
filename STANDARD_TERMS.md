@@ -483,7 +483,7 @@
 6. **Right to Terminate.** If the Contractor does not accept the updated terms,
    the Contractor may terminate this Agreement by giving written notice to the
    Company within the 3-day notice period. Such termination takes effect immediately
-   upon the Company's receipt of written notice, without the 7-day notice period
+   upon the Contractor's sending of written notice, without the 7-day notice period
    otherwise required under the [Termination](#termination) section. No penalty
    applies. The Company's payment obligations following such termination are
    governed by the applicable payment-on-termination clauses of the
