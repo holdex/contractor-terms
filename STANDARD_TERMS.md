@@ -146,9 +146,7 @@
    information reasonably required to process payment.
 8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
    reduced by any hours attributed to the Contractor as bugs that month:
-
    `payout = max(0, (totalHours - bugHours) × hourlyRate)`
-
    - `totalHours` — total approved hours logged by the Contractor in the month.
    - `hourlyRate` — the hourly rate in the Special Terms.
    - `bugHours` — hours the Contractor logged on the PR that caused the bug,
@@ -164,14 +162,15 @@
    Contractor may dispute any attribution in writing within 14 days of receiving
    notification of that attribution. A successfully disputed attribution is
    excluded from the bug hours calculation.
+
 9. **Taxes.** The Contractor handles all their own taxes, withholdings,
    and benefits. The Company makes no deductions.
 10. **Finality of Payment.** Any payment made by the Company for approved hours,
-   completed projects, or accepted milestones constitutes full and final settlement
-   of all claims relating to the Services covered by that payment. The Contractor
-   waives any right to dispute or make further claims in respect of that payment
-   if no written dispute is raised within 14 days after receipt. After this
-   14-day period, the Contractor has no further recourse regarding that payment.
+    completed projects, or accepted milestones constitutes full and final settlement
+    of all claims relating to the Services covered by that payment. The Contractor
+    waives any right to dispute or make further claims in respect of that payment
+    if no written dispute is raised within 14 days after receipt. After this
+    14-day period, the Contractor has no further recourse regarding that payment.
 
 ---
 
@@ -459,21 +458,36 @@
 1. **Right to Update.** The Company may update these Standard Terms from time
    to time by publishing a new tagged release to the repository at
    github.com/holdex/contractor-terms.
-2. **Notice of Updates.** The Company will notify the Contractor of any update by:
-   (i) tagging a new release in the repository (e.g., v1.1.0), and (ii) sending an
-   email to the Contractor's registered Gmail address at least 14 days before the
-   updated terms take effect. The email will include a link to the new release and
-   a summary of material changes.
-3. **Summary for Convenience Only.** Any summary of changes provided in an update
-   notification (including in the email, release notes, or changelog) is for
-   informational convenience only. In the event of any inconsistency between that
-   summary and the full text of the updated Standard Terms, the full text prevails.
-4. **Acceptance.** Continued provision of Services after the 14-day notice period
+2. **Notice of Updates.** The Company will notify the Contractor of any update by
+   tagging a new release in the repository (e.g., v1.1.0). The release notes will
+   include a summary of material changes. Updated terms take effect 3 calendar
+   days from the UTC timestamp of the tagged release. The Contractor may register an email address
+   with the Company to receive supplementary release notification emails; where such
+   an address is registered, the Company will send a notification to that address
+   when a new release is tagged.
+3. **Contractor Monitoring Obligation.** The Contractor must follow the repository
+   at github.com/holdex/contractor-terms and configure GitHub to receive release
+   notifications. Email notification under clause 2 is supplementary only; the
+   Company's primary notice obligation is satisfied by publishing a tagged release,
+   regardless of whether an email address has been registered. Registration of an
+   email address does not substitute for or discharge this monitoring obligation;
+   the Contractor must monitor the repository directly, regardless of whether an
+   email address has been registered.
+4. **Summary for Convenience Only.** Any summary of changes provided in an update
+   notification (including in the release notes or changelog) is for informational
+   convenience only. In the event of any inconsistency between that summary and the
+   full text of the updated Standard Terms, the full text prevails.
+5. **Acceptance.** Continued provision of Services after the 3-day notice period
    constitutes the Contractor's acceptance of the updated Standard Terms.
-5. **Right to Terminate.** If the Contractor does not accept the updated terms,
-   they may terminate this Agreement under the [Termination](#termination) section
-   within the 14-day notice period without penalty.
-6. **Version on Record.** The version of the Standard Terms that applies to each
+6. **Right to Terminate.** If the Contractor does not accept the updated terms,
+   the Contractor may terminate this Agreement by giving written notice to the
+   Company within the 3-day notice period. Such termination takes effect immediately
+   upon the Company's receipt of written notice, without the 7-day notice period
+   otherwise required under the [Termination](#termination) section. No penalty
+   applies. The Company's payment obligations following such termination are
+   governed by the applicable payment-on-termination clauses of the
+   [Termination](#termination) section.
+7. **Version on Record.** The version of the Standard Terms that applies to each
    signed Agreement is the version tagged at the time of signing, as recorded in
    the Special Terms. Any updates apply prospectively only.
 
