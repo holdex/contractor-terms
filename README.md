@@ -45,32 +45,6 @@ The contractor signs a document that references both:
 
 ---
 
-## Workflow for Signing a Contractor Agreement
-
-### 1. Prepare the Special Terms
-
-Copy [SPECIAL_TERMS.md](SPECIAL_TERMS.md) to the private HR repository and name it `AGREEMENT.md`. Fill in all
-`<!-- PLACEHOLDER -->` fields. In the Compensation section, keep only
-the subsection that applies to this contractor (Hourly, Per Project, or
-Milestone-Based) and delete the other two. Record the Standard Terms tag
-currently in effect (e.g. `v1.1.0`) at the top of the document.
-
-### 2. Send for signing
-
-Share the filled-in Special Terms with the contractor for review and signature.
-
-Signatures are collected digitally through PandaDoc.
-
-Store the signed `AGREEMENT_SIGNED.pdf` file in the private HR repository.
-
-### 3. Confirm the version on record
-
-Ensure the signed copy clearly references the Standard Terms tag in effect
-at the date of signing. This is the version that governs that contractor's
-relationship indefinitely unless updated per the process below.
-
----
-
 ## Workflow for Updating the Standard Terms
 
 Follow these steps every time `STANDARD_TERMS.md` is changed.
@@ -120,13 +94,7 @@ the tag, and publish. Copy the release URL — you will need it for contractor n
 
 ### 6. Notify contractors
 
-Send an email to all active contractors with:
-
-- A summary of what changed
-- A link to the new release
-- The date the new terms take effect (minimum 14 days from the email date)
-
-Use the subject line: `Holdex Contractor Terms Update — [version_number] effective [DATE]`
+Notify active contractors of the update per your internal process.
 
 ---
 
