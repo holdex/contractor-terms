@@ -176,7 +176,7 @@ these Special Terms and the Standard Terms at the version referenced above.
 
 **Government-issued ID below this line.**
 
-<!-- GOVERNMENT_ID_IMAGE -->
+<!-- PLACE YOUR GOVERNMENT_ID_IMAGE -->
 
 ![government ID](ID.jpeg)
 
