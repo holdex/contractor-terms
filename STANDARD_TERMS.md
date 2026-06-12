@@ -144,7 +144,12 @@
    Modes. The Company is not in breach of this obligation if a delay is caused
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
-8. **Quality Adjustment.** For Retainer engagements, the monthly payout is
+8. **Transfer Fees.** The Company pays the exact invoice amount as stated
+   in the valid invoice. Any fees charged by the Contractor's bank,
+   the receiving payment network, correspondent banks, or intermediaries
+   in transit are the Contractor's responsibility and are not added to
+   the payment by the Company.
+9. **Quality Adjustment.** For Retainer engagements, the monthly payout is
    reduced by any hours attributed to the Contractor as bugs that month:
 
    `payout = max(0, (totalHours - bugHours) × hourlyRate)`
@@ -164,9 +169,9 @@
    notification of that attribution. A successfully disputed attribution is
    excluded from the bug hours calculation.
 
-9. **Taxes.** The Contractor handles all their own taxes, withholdings,
-   and benefits. The Company makes no deductions.
-10. **Finality of Payment.** Any payment made by the Company for approved hours,
+10. **Taxes.** The Contractor handles all their own taxes, withholdings,
+    and benefits. The Company makes no deductions.
+11. **Finality of Payment.** Any payment made by the Company for approved hours,
     completed projects, or accepted milestones constitutes full and final settlement
     of all claims relating to the Services covered by that payment. The Contractor
     waives any right to dispute or make further claims in respect of that payment

@@ -6,6 +6,17 @@ at least 14 days before changes take effect.
 
 ---
 
+## v1.4.0 — 2026-06-09
+
+**Standard Terms:**
+
+- New clause in Compensation: Transfer Fees — the Company pays the exact
+  invoice amount; any fees charged by the contractor's bank, receiving
+  payment network, correspondent banks, or intermediaries in transit are
+  the contractor's responsibility.
+
+---
+
 ## v1.3.0 — 2026-04-24
 
 **Standard Terms:**
