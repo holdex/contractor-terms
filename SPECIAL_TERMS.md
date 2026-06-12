@@ -174,9 +174,11 @@ these Special Terms and the Standard Terms at the version referenced above.
 
 ---
 
-**Attach a copy of government-issued ID below this line.**
+**Government-issued ID below this line.**
 
 <!-- GOVERNMENT_ID_IMAGE -->
+
+![government ID](ID.jpeg)
 
 ---
 
