@@ -38,28 +38,26 @@ In these Standard Terms:
    change increases costs or time, both parties will agree in writing on fair
    adjustments to fees or deadlines before work continues. For Retainer
    engagements, task changes are managed through the default GitHub channel.
-3. **Record-Keeping.** The Contractor is responsible for maintaining their own
-   copy of a trace log of all Services provided, including dates, work completed,
-   hours worked (if Retainer), milestones or project deliverables completed, and
-   any relevant Work Order or task references. This log must be retained for the
-   duration of the Agreement and for 1 year following its termination.
+3. **Record-Keeping.** The Contractor must keep their own trace log of all
+   Services provided, including dates, work completed, hours worked (if
+   Retainer), milestones or project deliverables completed, and any relevant
+   Work Order or task references. The log must be kept for the duration of the
+   Agreement and for 1 year after its termination.
 4. **Subcontracting.** The Contractor may not subcontract, delegate, or assign
-   any part of the Services to any third party without the prior written approval
-   of the Company. If approval is granted, the Contractor remains fully liable for
-   all acts and omissions of any approved subcontractor as if they were the
-   Contractor's own. Any approved subcontractor must be bound in writing by
-   obligations at least equivalent to those imposed on the Contractor under this
-   Agreement, including obligations relating to confidentiality, intellectual
+   any part of the Services without the Company's prior written approval. The
+   Contractor remains fully liable for an approved subcontractor's acts and
+   omissions as if they were the Contractor's own. An approved subcontractor
+   must be bound in writing by obligations at least equivalent to the
+   Contractor's under this Agreement, including confidentiality, intellectual
    property, and data protection.
-5. **Audit Right.** The Company may, on not less than 5 business days' written
-   notice, request that the Contractor provide a copy of the trace log referred
-   to in the Record-Keeping clause above, together with any supporting records (including PR histories,
-   commit logs, time-stamped work records, and communications) for any period
-   during the preceding 12 months. The Contractor must comply within the notice
-   period. If an audit reveals that the Contractor has been paid for hours or
-   deliverables not actually performed or delivered, the Contractor must repay
-   the relevant amount to the Company within 14 days of written demand. This
-   right does not limit any other remedy available to the Company.
+5. **Audit Right.** On at least 5 business days' written notice, the Company
+   may ask the Contractor for the trace log and any supporting records
+   (including PR histories, commit logs, time-stamped work records, and
+   communications) for any period in the preceding 12 months. The Contractor
+   must comply within the notice period. If an audit shows the Contractor was
+   paid for hours or deliverables not performed or delivered, the Contractor
+   must repay that amount within 14 days of written demand. This right does
+   not limit any other remedy available to the Company.
 
 ---
 
@@ -70,12 +68,9 @@ In these Standard Terms:
    required per task. The Contractor is available on an ongoing basis, picks up
    tasks assigned through the default GitHub channel, and is paid under the
    [Compensation](#compensation) section.
-2. **Retainer — Monthly Hours Cap.** Where a Monthly Hours Cap is specified in
-   the Special Terms Rate Card, the Contractor may not bill hours in any calendar
-   month that exceed that cap without prior written approval from an Authorised
-   Issuer. Hours billed above the cap without such approval are not payable by
-   the Company. Where no Monthly Hours Cap is specified in the Special Terms, no
-   cap applies unless separately agreed in writing.
+2. **Retainer — Monthly Hours Cap.** Where the Special Terms Rate Card sets a
+   Monthly Hours Cap, hours billed above it in a calendar month are not payable
+   unless an Authorised Issuer approved them in writing beforehand.
 3. **Project and Milestone.** Where the Engagement Mode in the Special Terms is
    Project/Milestone, each discrete engagement requires a formal Work Order
    before work begins, as defined in the Work Orders section. Payment terms are
@@ -85,39 +80,35 @@ In these Standard Terms:
 
 ## Work Orders
 
-1. **Applicability.** Work Orders apply only to Project/Milestone engagements.
-   Retainer contractors do not require Work Orders for individual tasks.
-2. **Definition.** A Work Order is a written instruction issued by an Authorised
+1. **Definition.** A Work Order is a written instruction issued by an Authorised
    Issuer that activates a specific Project or Milestone engagement under this
    framework Agreement. Each Work Order must specify: scope of work, payment
    type, applicable fee, deadline or milestone schedule, and acceptance criteria.
-3. **Authorised Issuers.** Work Orders may only be issued on behalf of the Company
-   by the individuals listed as Authorised Issuers in the Special Terms.
-   Instructions from any other person do not constitute a valid Work Order and
-   do not obligate the Company to pay.
-4. **Execution.** Work Orders are issued as GitHub issues in the Holdex GitHub
-   organisation. A Work Order is considered accepted and binding once the Contractor
-   posts a written acknowledgement comment on the relevant GitHub issue. No
-   signature is required.
-5. **Precedence.** In the event of conflict between a Work Order and these Standard
-   Terms, the Standard Terms prevail unless the Work Order explicitly states
-   otherwise and is countersigned by both Parties.
-6. **No Guarantee of Work.** This Agreement does not guarantee the Company will
+2. **Authorised Issuers.** Only the individuals listed as Authorised Issuers in
+   the Special Terms may issue Work Orders for the Company. Instructions from
+   anyone else are not a valid Work Order and do not obligate the Company to
+   pay.
+3. **Execution.** Work Orders are issued as GitHub issues in the Holdex GitHub
+   organisation. A Work Order is accepted and binding once the Contractor posts
+   a written acknowledgement comment on the issue. No signature is required.
+4. **Precedence.** If a Work Order conflicts with these Standard Terms, the
+   Standard Terms prevail unless the Work Order explicitly states otherwise
+   and is countersigned by both Parties.
+5. **No Guarantee of Work.** This Agreement does not guarantee the Company will
    issue any minimum number of Work Orders or volume of work to the Contractor.
-7. **Rejection and Cure.** If an Authorised Issuer does not accept a deliverable
-   submitted under a Work Order, the Authorised Issuer must provide written
-   reasons for the rejection within a reasonable time of submission. The Contractor
-   shall then have a cure period of not less than 5 business days (or such longer
-   period as the Parties agree in writing) to address the stated reasons and
-   resubmit the deliverable. This process may be repeated if the resubmitted
-   deliverable is again rejected. A deliverable is deemed accepted if the
-   Authorised Issuer does not provide written reasons for rejection within
-   10 business days of submission or resubmission, with effect from the end of
-   that period. Wherever these Standard Terms refer to acceptance or written
-   acceptance of a deliverable, deemed acceptance under this clause counts as
-   written acceptance on that date. Payment obligations under the Compensation section
-   are triggered only upon acceptance.
-8. **Post-Acceptance Warranty.** For Project and Milestone engagements, the
+6. **Rejection and Cure.**
+   - An Authorised Issuer who rejects a deliverable must give written reasons
+     within a reasonable time of submission.
+   - The Contractor then has at least 5 business days (or longer if the Parties
+     agree in writing) to address the reasons and resubmit. This process may
+     repeat if the resubmitted deliverable is rejected again.
+   - A deliverable is deemed accepted if no written reasons for rejection are
+     given within 10 business days of submission or resubmission, with effect
+     from the end of that period. Wherever these Standard Terms refer to
+     acceptance or written acceptance of a deliverable, deemed acceptance
+     counts as written acceptance on that date.
+   - Payment under the Compensation section is due only on acceptance.
+7. **Post-Acceptance Warranty.** For Project and Milestone engagements, the
    Contractor warrants that each accepted deliverable will be free from material
    defects for 90 days following written acceptance (the "Warranty Period"). If
    the Company notifies the Contractor in writing of a defect during the Warranty
@@ -130,10 +121,9 @@ In these Standard Terms:
 
 ## Compensation
 
-1. **Payment Type.** Payment is determined by the Engagement Mode in the Special
-   Terms. Retainer engagements are paid at the hourly rate in the Special Terms.
-   Project and Milestone engagements are paid at the fee defined in the relevant
-   Work Order.
+1. **Payment Type.** Retainer engagements are paid at the hourly rate in the
+   Special Terms. Project and Milestone engagements are paid at the fee defined
+   in the relevant Work Order.
 2. **Retainer — Hourly.** The Contractor submits hours billed using PRs. The Company
    must approve all hours before payment. Research and learning time is not paid
    unless pre-agreed in writing as part of task scoping. Invoices are submitted
@@ -200,11 +190,10 @@ In these Standard Terms:
 11. **Taxes.** The Contractor handles all their own taxes, withholdings,
     and benefits. The Company makes no deductions.
 12. **Finality of Payment.** Any payment made by the Company for approved hours,
-    completed projects, or accepted milestones constitutes full and final settlement
-    of all claims relating to the Services covered by that payment. The Contractor
-    waives any right to dispute or make further claims in respect of that payment
-    if no written dispute is raised within 14 days after receipt. After this
-    14-day period, the Contractor has no further recourse regarding that payment.
+    completed projects, or accepted milestones is full and final settlement of
+    all claims relating to the Services covered by that payment, unless the
+    Contractor raises a written dispute within 14 days after receipt. After
+    that period, the Contractor has no further recourse regarding that payment.
 
 ---
 
@@ -274,13 +263,13 @@ In these Standard Terms:
 
 ## Data Protection and Information Security
 
-1. **PDPO Compliance.** The Contractor shall comply with the Personal Data
+1. **PDPO Compliance.** The Contractor must comply with the Personal Data
    (Privacy) Ordinance (Cap. 486, Hong Kong) ("PDPO") as it applies to the
    Company's operations, and all other applicable
    data protection laws when handling any personal data accessed in connection
-   with the Services. Personal data shall be used only for the purpose for which
+   with the Services. Personal data must be used only for the purpose for which
    it was collected and only to the extent necessary to perform the Services.
-2. **Permitted Use.** The Contractor shall not collect, process, copy, transfer,
+2. **Permitted Use.** The Contractor must not collect, process, copy, transfer,
    or otherwise use Company data or personal data for any purpose other than
    performing the Services under this Agreement without the Company's prior written
    consent.
@@ -303,7 +292,7 @@ In these Standard Terms:
    and the steps taken or proposed to contain and remediate it. If any such
    incident is caused by the Contractor's failure to comply with its obligations
    under this Data Protection and Information Security section, the Contractor
-   shall be responsible for the reasonable costs incurred by the Company for the
+   is responsible for the reasonable costs incurred by the Company for the
    investigation, containment, and recovery of the incident.
 
 ---
@@ -338,42 +327,43 @@ In these Standard Terms:
    created for the Company is owned 100% by the Company as "work made for hire."
 2. **Assignment.** The Contractor assigns all IP rights to the Company from
    the date of creation.
-3. **Pre-Existing IP.** Notwithstanding the foregoing, all Contractor
-   pre-existing intellectual property, tools, methodologies, and general
-   knowledge shall remain the Contractor's property. The Company receives a
-   perpetual, non-exclusive license to use any pre-existing IP incorporated
-   into Work Product.
-4. **Prior Inventions Disclosure.** To benefit from the Pre-Existing IP
-   carve-out in the Pre-Existing IP clause above, the Contractor must list all
-   relevant pre-existing intellectual property, tools, methodologies, and materials
-   (collectively, "Prior Inventions") in the Prior Inventions schedule in the
-   Special Terms at the time of signing. Any Prior Invention not listed in that
-   schedule that is incorporated into Work Product shall be presumed to be owned
-   by the Company and subject to the full assignment under the Assignment clause. The list may not be amended
-   after signing without written consent of both Parties.
+3. **Pre-Existing IP.** The Contractor's pre-existing intellectual property,
+   tools, methodologies, and general knowledge remain the Contractor's
+   property. The Company receives a perpetual, non-exclusive license to use
+   any pre-existing IP incorporated into Work Product.
+4. **Prior Inventions Disclosure.** To benefit from the Pre-Existing IP clause,
+   the Contractor must list all relevant pre-existing intellectual property,
+   tools, methodologies, and materials ("Prior Inventions") in the Prior
+   Inventions schedule in the Special Terms at the time of signing. A Prior
+   Invention not listed there that is incorporated into Work Product is
+   presumed to be owned by the Company and subject to the Assignment clause.
+   The list may not be amended after signing without written consent of both
+   Parties.
 5. **Moral Rights.** To the extent permitted by applicable law, the Contractor
    waives all moral rights in Work Product (e.g., authorship claims).
 6. **Assistance.** The Contractor will sign documents or assist the Company to
    protect its IP during and after the term.
-7. **Third-Party IP Warranty.** The Contractor warrants that: (i) all Work
-   Product delivered under this Agreement is original and created solely by the
-   Contractor, except for any third-party or open source materials expressly
-   disclosed to and approved by the Company in writing before incorporation;
-   (ii) the Work Product does not include any unlicensed third-party intellectual
-   property or open source code that would restrict the Company's ability to use,
-   distribute, or commercialise the Work Product; and (iii) the Contractor has
-   full authority to assign the rights in the Work Product to the Company as
-   required by this Agreement. The Contractor shall indemnify the Company against
-   any claim arising from a breach of this warranty.
+7. **Third-Party IP Warranty.** The Contractor warrants that:
+   - all Work Product delivered under this Agreement is original and created
+     solely by the Contractor, except for third-party or open source materials
+     disclosed to and approved by the Company in writing before incorporation;
+   - the Work Product includes no unlicensed third-party intellectual property
+     or open source code that would restrict the Company's ability to use,
+     distribute, or commercialise it; and
+   - the Contractor has full authority to assign the rights in the Work Product
+     to the Company as this Agreement requires.
+
+   The Contractor indemnifies the Company against any claim arising from a
+   breach of this warranty.
 
 ---
 
 ## Non-Solicitation
 
 1. **Employees.** During the term and for 1 year after termination, neither Party
-   shall solicit or hire the other's employees without prior written consent.
+   may solicit or hire the other's employees without prior written consent.
 2. **Clients.** During the term and for 1 year after termination, the Contractor
-   shall not solicit any client of the Company with whom the Contractor worked under this Agreement for
+   must not solicit any client of the Company with whom the Contractor worked under this Agreement for
    services substantially similar to those provided under this Agreement.
 
 ---
@@ -381,7 +371,7 @@ In these Standard Terms:
 ## Non-Compete
 
 1. **Prohibited Activities.** During the term of this Agreement and for 6 months
-   following its termination, the Contractor shall not directly provide services
+   following its termination, the Contractor must not directly provide services
    to any client they worked with under this Agreement in a capacity that competes
    with the Services delivered for that client through the Company. This restriction
    applies only to those specific clients and does not prevent the Contractor from
@@ -413,22 +403,23 @@ In these Standard Terms:
    will be resolved under the [Dispute Resolution](#dispute-resolution) section.
    Any IP created as part of a partially completed milestone transfers to the
    Company regardless of whether payment has been agreed.
-5. **Termination for Cause.** Notwithstanding the Notice clause above, the Company may terminate
-   this Agreement immediately, without notice and without any payment obligation
-   for the notice period, upon the occurrence of any of the following: (i) material
-   breach of this Agreement by the Contractor that is not remedied within 5 business
-   days of written notice (or is not capable of remedy); (ii) fraud or wilful
-   misrepresentation by the Contractor in connection with this Agreement or any
-   invoice; (iii) criminal conduct by the Contractor; (iv) breach of the
-   Confidential Information or Data Protection and Information Security sections
-   of these Standard Terms; or (v) violation of any applicable law by the
-   Contractor in connection with the performance of Services. Termination for
-   cause does not affect the Company's right to seek damages or other remedies.
-   Upon termination for cause, the Company's payment obligation is limited to work
-   completed and accepted by an Authorised Issuer prior to the date of termination.
-   Any such payment shall be net of any amounts due from the Contractor to the Company
-   under this Agreement, including costs for which the Contractor is responsible
-   under the Data Protection and Information Security section.
+5. **Termination for Cause.** The Company may terminate this Agreement
+   immediately, without notice and without any payment obligation for the
+   notice period, if the Contractor:
+   - materially breaches this Agreement and does not remedy the breach within
+     5 business days of written notice, or the breach cannot be remedied;
+   - commits fraud or wilful misrepresentation in connection with this
+     Agreement or any invoice;
+   - engages in criminal conduct;
+   - breaches the Confidential Information or Data Protection and Information
+     Security section; or
+   - violates any applicable law in performing the Services.
+
+   The Company then pays only for work completed and accepted by an Authorised
+   Issuer before the date of termination, less any amounts the Contractor owes
+   the Company under this Agreement, including costs under the Data Protection
+   and Information Security section. Termination for cause does not affect the
+   Company's right to seek damages or other remedies.
 
 ---
 
@@ -438,7 +429,7 @@ In these Standard Terms:
    officers, directors, employees, agents) against claims arising from:
    (i) the Contractor's negligence or intentional acts; (ii) breach of this
    Agreement by the Contractor; (iii) issues with Work Product.
-2. **Company Indemnity.** The Company shall indemnify the Contractor against
+2. **Company Indemnity.** The Company indemnifies the Contractor against
    claims arising from: (i) the Company's gross negligence or willful misconduct;
    (ii) the Company's breach of this Agreement; (iii) third-party intellectual
    property claims related to materials provided by the Company to the Contractor.
@@ -495,33 +486,29 @@ In these Standard Terms:
 1. **Right to Update.** The Company may update these Standard Terms from time
    to time by publishing a new tagged release to the repository at
    github.com/holdex/contractor-terms.
-2. **Notice of Updates.** The Company will notify the Contractor of any update by
-   tagging a new release in the repository (e.g., v1.1.0). The release notes will
-   include a summary of material changes. Updated terms take effect 3 calendar
-   days from the UTC timestamp of the tagged release. The Contractor may register an email address
-   with the Company to receive supplementary release notification emails; where such
-   an address is registered, the Company will send a notification to that address
-   when a new release is tagged.
-3. **Contractor Monitoring Obligation.** The Contractor must follow the repository
-   at github.com/holdex/contractor-terms and configure GitHub to receive release
-   notifications. Email notification under the Notice of Updates clause is supplementary only; the
-   Company's primary notice obligation is satisfied by publishing a tagged release,
-   and registration of an email address does not substitute for or discharge
+2. **Notice of Updates.** The Company notifies the Contractor of an update by
+   tagging a new release in the repository (e.g., v1.1.0), with release notes
+   that summarise material changes. Updated terms take effect 3 calendar days
+   from the UTC timestamp of the tagged release. If the Contractor has
+   registered an email address with the Company, the Company also sends a
+   notification to that address.
+3. **Contractor Monitoring Obligation.** The Contractor must follow the
+   repository and configure GitHub to receive release notifications. The
+   tagged release alone satisfies the Company's notice obligation. The email
+   under the Notice of Updates clause is supplementary and does not replace
    this monitoring obligation.
 4. **Summary for Convenience Only.** Any summary of changes provided in an update
    notification (including in the release notes or changelog) is for informational
-   convenience only. In the event of any inconsistency between that summary and the
+   convenience only. If that summary is inconsistent with the
    full text of the updated Standard Terms, the full text prevails.
 5. **Acceptance.** Continued provision of Services after the 3-day notice period
    constitutes the Contractor's acceptance of the updated Standard Terms.
 6. **Right to Terminate.** If the Contractor does not accept the updated terms,
-   the Contractor may terminate this Agreement by giving written notice to the
-   Company within the 3-day notice period. Such termination takes effect immediately
-   upon the Contractor's sending of written notice, without the 7-day notice period
-   otherwise required under the [Termination](#termination) section. No penalty
-   applies. The Company's payment obligations following such termination are
-   governed by the applicable payment-on-termination clauses of the
-   [Termination](#termination) section.
+   the Contractor may terminate this Agreement by written notice to the
+   Company within the 3-day notice period. Termination takes effect when the
+   notice is sent, without the 7-day notice period in the
+   [Termination](#termination) section and without penalty. Payment follows
+   the payment-on-termination clauses of that section.
 7. **Version on Record.** The version of the Standard Terms that applies from
    signing is the version recorded in the Special Terms. Each later version
    replaces it from its effective date under the Notice of Updates clause.

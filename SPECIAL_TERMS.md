@@ -54,7 +54,7 @@
 2. Adhere at all times to Holdex’s development principles and guidelines published at
    [github.com/holdex/developers](https://github.com/holdex/developers). All contractors must maintain high standards of
    clarity, traceability, and professionalism when working in GitHub.
-3. Deliver work professionally, on schedule, and with a focus on high customer and client satisfaction.
+3. Deliver work with a focus on high customer and client satisfaction.
 4. Support the promotion of the Holdex brand across agreed channels (website, X, LinkedIn, etc.).
 
 ---
@@ -86,7 +86,7 @@
 
 > Applies only when commission is offered. Otherwise mark as Not Applicable.
 
-Commission, if any, will be defined per Work Order. The Contractor shall only be entitled to commission on revenue or
+Commission, if any, will be defined per Work Order. The Contractor is only entitled to commission on revenue or
 deals that are directly attributable to their efforts and explicitly approved in writing by an Authorised Issuer.
 
 ---
@@ -120,8 +120,8 @@ Payment Type: [Per-Project / Milestone-Based]
 [How completion will be assessed and by whom]
 ```
 
-The Contractor must post a comment on the issue to confirm acceptance before  
-work begins. Silence does not constitute acceptance.
+The Contractor accepts a Work Order as set out in the Execution clause of the
+Standard Terms. Silence is not acceptance.
 
 ---
 
@@ -148,9 +148,6 @@ but unpaid amounts — remain valid and are not affected by this supersession.
 > materials that the Contractor owns or has rights to and that may be incorporated
 > into Work Product delivered under this Agreement. If there are no Prior
 > Inventions to disclose, write "None" in the table below.
->
-> This schedule cannot be amended after the Agreement is signed without the
-> written consent of both Parties.
 
 | #   | Description of Prior Invention       | Ownership / Licence Basis |
 | --- | ------------------------------------ | ------------------------- |
