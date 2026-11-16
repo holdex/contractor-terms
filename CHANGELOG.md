@@ -34,6 +34,18 @@ in the Updates section of the Standard Terms.
   survival clauses in Data Protection and Indemnification and names the other
   sections whose obligations continue after the Agreement ends. Liability Cap
   is now Indemnification clause 4.
+- New section: Definitions. It defines the terms that had no definition
+  elsewhere (Company, Contractor, Party, Special Terms, Services), and the
+  text now says "the Company" wherever it means Holdex Limited.
+- Force Majeure and Severability moved from Dispute Resolution to General
+  Provisions (clauses 9 and 10), with no change in wording.
+- Clause cross-references now use clause names instead of numbers.
+- Quality Adjustment: a bug is attributed by a `@holdex bug commit` comment
+  on the fixing pull request, or by a manual adjustment recorded in writing
+  after discussion with the contractor. Bug hours carried forward are
+  deducted from the final payout when the Agreement ends.
+- Payout Currency: the company chooses between the Google and Yahoo Finance
+  rate.
 
 **Special Terms:**
 
