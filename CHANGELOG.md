@@ -1,8 +1,9 @@
 # Changelog
 
 All notable changes to the Holdex Independent Contractor Standard Terms will be
-documented here in plain English. Contractors are notified of updates by email
-at least 14 days before changes take effect.
+documented here in plain English. Contractors are notified of updates by a tagged
+GitHub release, and changes take effect 3 calendar days after it, as set out
+in the Updates section of the Standard Terms.
 
 ---
 
@@ -17,6 +18,24 @@ at least 14 days before changes take effect.
   fees, borne by the contractor.
 - Following Compensation clauses renumbered (Quality Adjustment is now 10,
   Taxes 11, Finality of Payment 12).
+- Transfer Fees: the company sends the invoice amount or its equivalent in
+  another currency, and the amount received may be lower once fees are taken.
+- Rejection and Cure: deemed acceptance now counts as written acceptance,
+  dated the day the 10 business days end, so payment, invoice deadlines and
+  the warranty period all start from it.
+- Version on Record: the version in the Special Terms applies from signing,
+  and each later version replaces it from its effective date. Work done
+  before an update stays under the version in effect at the time.
+
+**Special Terms:**
+
+- Work Order template: "Hourly" removed as a payment type, since Work Orders
+  apply only to Project and Milestone engagements.
+
+**Changelog:**
+
+- Notice wording corrected to match the Standard Terms: updates are announced
+  by a tagged GitHub release and take effect 3 calendar days later.
 
 ---
 
