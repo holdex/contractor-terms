@@ -9,8 +9,9 @@
 
 > These Standard Terms are incorporated by reference into each
 > Independent Contractor Agreement (the "Agreement") signed with Holdex Limited.
-> The version in effect is the one tagged at the time of signing.
-> Updates are governed by the notice procedure in the [Updates](#updates-to-these-standard-terms) section.
+> The version in effect at signing is the one recorded in the Special Terms.
+> Later versions replace it under the notice procedure in the
+> [Updates](#updates-to-these-standard-terms) section.
 
 ---
 
@@ -98,9 +99,11 @@
    resubmit the deliverable. This process may be repeated if the resubmitted
    deliverable is again rejected. A deliverable is deemed accepted if the
    Authorised Issuer does not provide written reasons for rejection within
-   10 business days of submission or resubmission. Payment obligations under the
-   Compensation section are triggered only upon written acceptance or deemed
-   acceptance under the Rejection and Cure clause above.
+   10 business days of submission or resubmission, with effect from the end of
+   that period. Wherever these Standard Terms refer to acceptance or written
+   acceptance of a deliverable, deemed acceptance under this clause counts as
+   written acceptance on that date. Payment obligations under the Compensation section
+   are triggered only upon acceptance.
 8. **Post-Acceptance Warranty.** For Project and Milestone engagements, the
    Contractor warrants that each accepted deliverable will be free from material
    defects for 90 days following written acceptance (the "Warranty Period"). If
@@ -144,11 +147,13 @@
    Modes. The Company is not in breach of this obligation if a delay is caused
    by the Contractor's failure to submit a compliant invoice or provide
    information reasonably required to process payment.
-8. **Transfer Fees.** The Company pays the exact invoice amount as stated
-   in the valid invoice. Any fees charged by the Contractor's bank,
+8. **Transfer Fees.** The Company sends the exact invoice amount as stated
+   in the valid invoice, or its equivalent in another currency under the
+   Payout Currency clause below. Any fees charged by the Contractor's bank,
    the receiving payment network, correspondent banks, or intermediaries
    in transit are the Contractor's responsibility and are not added to
-   the payment by the Company.
+   the payment by the Company, so the amount received may be lower than the
+   invoice amount.
 9. **Payout Currency.** The invoice currency is the currency of the Company's
    obligation. The Company may pay from any account or balance in any currency
    at its discretion. It calculates the amount to send by converting the
@@ -500,9 +505,12 @@
    applies. The Company's payment obligations following such termination are
    governed by the applicable payment-on-termination clauses of the
    [Termination](#termination) section.
-7. **Version on Record.** The version of the Standard Terms that applies to each
-   signed Agreement is the version tagged at the time of signing, as recorded in
-   the Special Terms. Any updates apply prospectively only.
+7. **Version on Record.** The version of the Standard Terms that applies from
+   signing is the version recorded in the Special Terms. Each later version
+   replaces it from its effective date under the Notice of Updates clause.
+   Updates apply prospectively only: Services performed and amounts accrued
+   before an update's effective date stay governed by the version in effect at
+   that time.
 
 ---
 

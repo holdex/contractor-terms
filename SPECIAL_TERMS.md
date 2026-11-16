@@ -102,13 +102,13 @@ the issue must follow this structure:
 ```text
 **Work Order — [Brief Title]**
 Agreement: [Contractor Full Name] — Special Terms v[X.Y.Z] / Standard Terms v[X.Y.Z]
-Payment Type: [Per-Project / Milestone-Based / Hourly]
+Payment Type: [Per-Project / Milestone-Based]
 
 **Scope:**
 [Description of work to be delivered]
 
 **Fee:**
-[Fixed fee USD or hourly rate]
+[Fixed fee USD]
 
 **Commission (if applicable):**
 [Specific commission terms for this engagement, e.g. "10% of net revenue from closed deals" or "Not applicable"]
