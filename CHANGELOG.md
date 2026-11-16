@@ -27,6 +27,14 @@ in the Updates section of the Standard Terms.
   and each later version replaces it from its effective date. Work done
   before an update stays under the version in effect at the time.
 
+- Repeated wording removed, with no change in meaning: unpaid research time
+  and the hourly rate are stated once in Compensation, the 30-day payment
+  clock once in Payment Deadline, and the repository monitoring duty once.
+- New clause in General Provisions: Survival. It replaces the separate
+  survival clauses in Data Protection and Indemnification and names the other
+  sections whose obligations continue after the Agreement ends. Liability Cap
+  is now Indemnification clause 4.
+
 **Special Terms:**
 
 - Work Order template: "Hourly" removed as a payment type, since Work Orders
