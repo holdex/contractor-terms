@@ -54,9 +54,8 @@
 1. **Retainer.** Where the Engagement Mode in the Special Terms is Retainer,
    the framework Agreement itself activates the engagement. No Work Order is
    required per task. The Contractor is available on an ongoing basis, picks up
-   tasks assigned through the default GitHub channel, logs hours via PRs, and
-   is paid monthly at the hourly rate in the Special Terms. Research and learning
-   time is not paid unless pre-agreed in writing as part of task scoping.
+   tasks assigned through the default GitHub channel, and is paid under the
+   [Compensation](#compensation) section.
 2. **Retainer — Monthly Hours Cap.** Where a Monthly Hours Cap is specified in
    the Special Terms Rate Card, the Contractor may not bill hours in any calendar
    month that exceed that cap without prior written approval from an Authorised
@@ -140,8 +139,7 @@
 6. **Valid Invoice.** An invoice is considered valid only if it includes all
    of the following: invoice number, issue date, contractor legal name,
    itemized description of services rendered, total amount due, and payment
-   details (bank account or wallet address). The 30-day payment clock does
-   not start until a valid invoice has been received.
+   details (bank account or wallet address).
 7. **Payment Deadline.** The Company will process payment within 30 calendar
    days of receiving a valid invoice. This deadline applies to all Engagement
    Modes. The Company is not in breach of this obligation if a delay is caused
@@ -289,8 +287,6 @@
    under this Data Protection and Information Security section, the Contractor
    shall be responsible for the reasonable costs incurred by the Company for the
    investigation, containment, and recovery of the incident.
-5. **Survival.** The obligations in this section survive termination or expiration
-   of this Agreement.
 
 ---
 
@@ -430,8 +426,7 @@
    property claims related to materials provided by the Company to the Contractor.
 3. **Notice.** Each Party notifies the other promptly of any claims for which
    indemnification may be sought.
-4. **Survival.** This section survives termination.
-5. **Liability Cap.** The Contractor's total liability under this Agreement is
+4. **Liability Cap.** The Contractor's total liability under this Agreement is
    limited to the total fees paid to the Contractor, except for liability arising
    from the Contractor's willful misconduct or gross negligence, or from a breach
    of the Fund Handling section.
@@ -455,6 +450,12 @@
 5. **Assignment.** No assignment without the other Party's written consent.
 6. **Governing Law.** Hong Kong law applies (no conflict of law rules).
 7. **No Waiver.** Delaying a right does not waive it.
+8. **Survival.** Obligations that by their nature continue after this Agreement
+   ends survive its termination or expiration, including those in the Audit
+   Right and Post-Acceptance Warranty clauses and in the Confidential
+   Information, Data Protection and Information Security, Fund Handling,
+   Intellectual Property, Non-Solicitation, Non-Compete, Indemnification, and
+   Dispute Resolution sections.
 
 ---
 
@@ -487,10 +488,8 @@
    at github.com/holdex/contractor-terms and configure GitHub to receive release
    notifications. Email notification under clause 2 is supplementary only; the
    Company's primary notice obligation is satisfied by publishing a tagged release,
-   regardless of whether an email address has been registered. Registration of an
-   email address does not substitute for or discharge this monitoring obligation;
-   the Contractor must monitor the repository directly, regardless of whether an
-   email address has been registered.
+   and registration of an email address does not substitute for or discharge
+   this monitoring obligation.
 4. **Summary for Convenience Only.** Any summary of changes provided in an update
    notification (including in the release notes or changelog) is for informational
    convenience only. In the event of any inconsistency between that summary and the
