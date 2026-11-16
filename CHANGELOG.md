@@ -6,6 +6,20 @@ at least 14 days before changes take effect.
 
 ---
 
+## v1.5.0 — 2026-11-16
+
+**Standard Terms:**
+
+- New clause in Compensation: Payout Currency. The invoice currency is the
+  currency of the obligation. The company may pay in any currency at its
+  discretion, converting the invoice amount at the Google or Yahoo Finance
+  exchange rate on the transfer date. Conversion costs count as transfer
+  fees, borne by the contractor.
+- Following Compensation clauses renumbered (Quality Adjustment is now 10,
+  Taxes 11, Finality of Payment 12).
+
+---
+
 ## v1.4.0 — 2026-06-09
 
 **Standard Terms:**

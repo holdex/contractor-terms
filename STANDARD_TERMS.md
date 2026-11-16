@@ -149,29 +149,36 @@
    the receiving payment network, correspondent banks, or intermediaries
    in transit are the Contractor's responsibility and are not added to
    the payment by the Company.
-9. **Quality Adjustment.** For Retainer engagements, the monthly payout is
-   reduced by any hours attributed to the Contractor as bugs that month:
+9. **Payout Currency.** The invoice currency is the currency of the Company's
+   obligation. The Company may pay from any account or balance in any currency
+   at its discretion. It calculates the amount to send by converting the
+   invoice amount into the sending currency at the Google or Yahoo Finance
+   exchange rate on the transfer date. Currency conversion costs count as fees
+   under the Transfer Fees clause above. The payment provider's quote or
+   receipt is the record of the transfer.
+10. **Quality Adjustment.** For Retainer engagements, the monthly payout is
+    reduced by any hours attributed to the Contractor as bugs that month:
 
-   `payout = max(0, (totalHours - bugHours) × hourlyRate)`
-   - `totalHours` — total approved hours logged by the Contractor in the month.
-   - `hourlyRate` — the hourly rate in the Special Terms.
-   - `bugHours` — hours the Contractor logged on the PR that caused the bug,
-     counted in the month the attribution is recorded, not the month the PR was
-     originally merged. Payout cannot be negative; any excess bugHours beyond
-     totalHours carry forward to the following month.
+    `payout = max(0, (totalHours - bugHours) × hourlyRate)`
+    - `totalHours` — total approved hours logged by the Contractor in the month.
+    - `hourlyRate` — the hourly rate in the Special Terms.
+    - `bugHours` — hours the Contractor logged on the PR that caused the bug,
+      counted in the month the attribution is recorded, not the month the PR was
+      originally merged. Payout cannot be negative; any excess bugHours beyond
+      totalHours carry forward to the following month.
 
-   Example: the Contractor logged 4 h on PR A in January. PR A is attributed as
-   a bug in March. Those 4 h count as bug hours in March, reducing the March
-   payout.
+    Example: the Contractor logged 4 h on PR A in January. PR A is attributed as
+    a bug in March. Those 4 h count as bug hours in March, reducing the March
+    payout.
 
-   Attributions are recorded in writing in the Holdex GitHub organisation. The
-   Contractor may dispute any attribution in writing within 14 days of receiving
-   notification of that attribution. A successfully disputed attribution is
-   excluded from the bug hours calculation.
+    Attributions are recorded in writing in the Holdex GitHub organisation. The
+    Contractor may dispute any attribution in writing within 14 days of receiving
+    notification of that attribution. A successfully disputed attribution is
+    excluded from the bug hours calculation.
 
-10. **Taxes.** The Contractor handles all their own taxes, withholdings,
+11. **Taxes.** The Contractor handles all their own taxes, withholdings,
     and benefits. The Company makes no deductions.
-11. **Finality of Payment.** Any payment made by the Company for approved hours,
+12. **Finality of Payment.** Any payment made by the Company for approved hours,
     completed projects, or accepted milestones constitutes full and final settlement
     of all claims relating to the Services covered by that payment. The Contractor
     waives any right to dispute or make further claims in respect of that payment
