@@ -15,6 +15,20 @@
 
 ---
 
+## Definitions
+
+In these Standard Terms:
+
+- **Company** means Holdex Limited.
+- **Contractor** means the person named as the Contractor in the Special Terms.
+- **Party** means the Company or the Contractor, and **Parties** means both.
+- **Special Terms** means the document signed by the Parties that records the
+  Contractor's details, Engagement Mode, Rate Card, and Authorised Issuers.
+- **Services** means the work described in the Special Terms and, for Project
+  and Milestone engagements, in each Work Order.
+
+---
+
 ## Services
 
 1. **Performance.** The Contractor will perform Services under the Engagement
@@ -82,7 +96,7 @@
    Instructions from any other person do not constitute a valid Work Order and
    do not obligate the Company to pay.
 4. **Execution.** Work Orders are issued as GitHub issues in the Holdex GitHub
-   organization. A Work Order is considered accepted and binding once the Contractor
+   organisation. A Work Order is considered accepted and binding once the Contractor
    posts a written acknowledgement comment on the relevant GitHub issue. No
    signature is required.
 5. **Precedence.** In the event of conflict between a Work Order and these Standard
@@ -120,7 +134,7 @@
    Terms. Retainer engagements are paid at the hourly rate in the Special Terms.
    Project and Milestone engagements are paid at the fee defined in the relevant
    Work Order.
-2. **Retainer — Hourly.** The Contractor submits hours billed using PRs. Holdex
+2. **Retainer — Hourly.** The Contractor submits hours billed using PRs. The Company
    must approve all hours before payment. Research and learning time is not paid
    unless pre-agreed in writing as part of task scoping. Invoices are submitted
    at month-end for approved hours only.
@@ -156,7 +170,7 @@
    obligation. The Company may pay from any account or balance in any currency
    at its discretion. It calculates the amount to send by converting the
    invoice amount into the sending currency at the Google or Yahoo Finance
-   exchange rate on the transfer date. Currency conversion costs count as fees
+   exchange rate on the transfer date, whichever the Company chooses. Currency conversion costs count as fees
    under the Transfer Fees clause above. The payment provider's quote or
    receipt is the record of the transfer.
 10. **Quality Adjustment.** For Retainer engagements, the monthly payout is
@@ -174,7 +188,11 @@
     a bug in March. Those 4 h count as bug hours in March, reducing the March
     payout.
 
-    Attributions are recorded in writing in the Holdex GitHub organisation. The
+    A bug is attributed by a `@holdex bug commit` comment on the pull request
+    that fixes it, naming the commit that introduced the bug and its author.
+    The Company may also record a manual adjustment in writing after discussing
+    it with the Contractor, case by case. When this Agreement ends, bug hours
+    carried forward are deducted from the final payout. The
     Contractor may dispute any attribution in writing within 14 days of receiving
     notification of that attribution. A successfully disputed attribution is
     excluded from the bug hours calculation.
@@ -213,16 +231,16 @@
 ## Communication Channels
 
 1. **Approved Channels.** The Contractor must conduct all communications and
-   activities on behalf of Holdex with other contractors, Holdex employees, client
+   activities on behalf of the Company with other contractors, Company employees, client
    representatives, or any third parties only through channels approved in writing
-   by Holdex.
-2. **Default Channel.** The default approved communication channel is Holdex's
-   GitHub organization (<https://github.com/holdex>).
+   by the Company.
+2. **Default Channel.** The default approved communication channel is the
+   Company's GitHub organisation (<https://github.com/holdex>).
 3. **Logging Outside Default Channel.** If communication occurs outside the Default
    Channel, the Contractor must log a transcript or detailed summary in the Default
    Channel on the same day the communication happened. Alternatively, such
    communication should be handled directly within the Default Channel. Unlogged
-   communication will be considered unofficial by Holdex.
+   communication will be considered unofficial by the Company.
 4. **Manager Notification.** If the Contractor is authorized to communicate outside
    the Default Channel, the Contractor must keep their designated managers (as
    specified in the Special Terms) informed by including them in such communications.
@@ -292,7 +310,7 @@
 
 ## Information Sharing
 
-1. **Multiple Projects.** The Contractor may be assigned to projects for Holdex
+1. **Multiple Projects.** The Contractor may be assigned to projects for Company
    clients and can work on multiple projects at the same time.
 2. **Client Separation.** The Contractor must keep all client information
    confidential and not share details of work for one client with another.
@@ -365,10 +383,10 @@
 1. **Prohibited Activities.** During the term of this Agreement and for 6 months
    following its termination, the Contractor shall not directly provide services
    to any client they worked with under this Agreement in a capacity that competes
-   with the Services delivered for that client through Holdex. This restriction
+   with the Services delivered for that client through the Company. This restriction
    applies only to those specific clients and does not prevent the Contractor from
    working in their field generally.
-2. **Notification.** The Contractor agrees to notify Holdex Limited of any potential
+2. **Notification.** The Contractor agrees to notify the Company of any potential
    conflict of interest arising from new engagements or business activities that may
    fall within this restriction.
 
@@ -456,6 +474,11 @@
    Information, Data Protection and Information Security, Fund Handling,
    Intellectual Property, Non-Solicitation, Non-Compete, Indemnification, and
    Dispute Resolution sections.
+9. **Force Majeure.** Neither Party is liable for delays caused by events beyond
+   its reasonable control (e.g., war, flood, government acts). The affected Party
+   will notify the other promptly and resume as soon as possible.
+10. **Severability.** If any part of these terms is invalid, the remainder stays
+    valid.
 
 ---
 
@@ -464,11 +487,6 @@
 1. **Disputes.** If a dispute arises, the Parties will first attempt amicable
    resolution within 30 days. If unsuccessful, the dispute will be resolved by
    arbitration in Hong Kong under HKIAC rules (one arbitrator, English language).
-2. **Force Majeure.** Neither Party is liable for delays caused by events beyond
-   its reasonable control (e.g., war, flood, government acts). The affected Party
-   will notify the other promptly and resume as soon as possible.
-3. **Severability.** If any part of these terms is invalid, the remainder stays
-   valid.
 
 ---
 
@@ -486,7 +504,7 @@
    when a new release is tagged.
 3. **Contractor Monitoring Obligation.** The Contractor must follow the repository
    at github.com/holdex/contractor-terms and configure GitHub to receive release
-   notifications. Email notification under clause 2 is supplementary only; the
+   notifications. Email notification under the Notice of Updates clause is supplementary only; the
    Company's primary notice obligation is satisfied by publishing a tagged release,
    and registration of an email address does not substitute for or discharge
    this monitoring obligation.
