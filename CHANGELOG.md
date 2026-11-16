@@ -46,8 +46,17 @@ in the Updates section of the Standard Terms.
   deducted from the final payout when the Agreement ends.
 - Payout Currency: the company chooses between the Google and Yahoo Finance
   rate.
+- Plain-language pass with no intended change in meaning: "shall" replaced
+  by "must", long clauses split into lists (Rejection and Cure, Third-Party
+  IP Warranty, Termination for Cause), and wording shortened in Services,
+  Monthly Hours Cap, Finality of Payment, Intellectual Property and Updates.
+- Work Orders: the Applicability clause is removed because Engagement Modes
+  already says it. The remaining Work Orders clauses are renumbered 1 to 7.
 
 **Special Terms:**
+
+- Notes that repeated the Standard Terms now point to them: Work Order
+  acceptance and the Prior Inventions amendment rule.
 
 - Work Order template: "Hourly" removed as a payment type, since Work Orders
   apply only to Project and Milestone engagements.
